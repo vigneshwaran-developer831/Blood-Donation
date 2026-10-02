@@ -1,0 +1,787 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+.login-container {
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+}
+
+/* 
+/* LEFT SIDE 
+
+.left-side {
+    width: 50%;
+
+    background: linear-gradient(
+        135deg,
+        #c1121f,
+        #e63946
+    );
+
+    color: white;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+
+.content {
+    width: 70%;
+}
+
+
+.logo {
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    margin-bottom: 70px;
+}
+
+
+.logo i {
+    font-size: 35px;
+}
+
+
+.logo h2 {
+    font-size: 30px;
+}
+
+
+.content h1 {
+    font-size: 50px;
+
+    margin-bottom: 20px;
+}
+
+
+.content p {
+    font-size: 18px;
+
+    line-height: 30px;
+
+    width: 80%;
+}
+
+
+.blood-icon {
+    margin-top: 50px;
+
+    width: 100px;
+
+    height: 100px;
+
+    background-color: white;
+
+    color: #e63946;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+
+.blood-icon i {
+    font-size: 45px;
+}
+
+ */
+
+ .left-side {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Background Video */
+.background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    z-index: 0;
+}
+
+/* Dark Overlay */
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background: rgba(0, 0, 0, 0.45);
+
+    
+
+    z-index: 1;
+}
+
+/* Content above video */
+.left-side .content {
+    position: relative;
+    color: white;
+    padding: 40px;
+    z-index: 2;
+}
+
+/* RIGHT SIDE */
+
+.right-side {
+    width: 50%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background-color: #ffffff;
+}
+
+
+.login-box {
+    width: 400px;
+}
+
+
+.login-box h1 {
+    font-size: 38px;
+
+    color: #222;
+
+    margin-bottom: 10px;
+}
+
+
+.subtitle {
+    color: gray;
+
+    margin-bottom: 40px;
+
+    font-size: 16px;
+}
+
+
+
+/* INPUT */
+
+.input-box {
+    margin-bottom: 25px;
+}
+
+
+.input-box label {
+    display: block;
+
+    margin-bottom: 10px;
+
+    font-weight: bold;
+
+    color: #333;
+}
+
+
+.input-field {
+    width: 100%;
+
+    height: 55px;
+
+    border: 1px solid #ddd;
+
+    border-radius: 8px;
+
+    display: flex;
+
+    align-items: center;
+
+    padding: 0 15px;
+}
+
+
+.input-field i {
+    color: #e63946;
+
+    font-size: 18px;
+
+    margin-right: 12px;
+}
+
+
+.input-field input {
+    width: 100%;
+
+    border: none;
+
+    outline: none;
+
+    font-size: 15px;
+}
+
+
+
+/* OPTIONS */
+
+.options {
+    display: flex;
+
+    justify-content: space-between;
+
+    margin-bottom: 25px;
+
+    font-size: 14px;
+}
+
+
+.options a {
+    text-decoration: none;
+
+    color: #e63946;
+
+    font-weight: bold;
+}
+
+
+
+/* BUTTON */
+
+button {
+    width: 100%;
+
+    height: 55px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background-color: #e63946;
+
+    color: white;
+
+    font-size: 17px;
+
+    /* cursor: pointer; */
+
+    transition: 0.3s;
+}
+
+
+button:hover {
+    background-color: #c1121f;
+}
+
+
+
+/* REGISTER */
+
+.register {
+    text-align: center;
+
+    margin-top: 25px;
+
+    color: gray;
+}
+
+
+.register a {
+    color: #e63946;
+
+    text-decoration: none;
+
+    font-weight: bold;
+}
+
+
+
+
+
+/* =========================================================
+   1. MOBILE
+   0px - 575.99px
+   ========================================================= */
+
+@media (max-width: 575.99px) {
+
+    .login-container {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* ================= LEFT SIDE ================= */
+
+    .left-side {
+        width: 100%;
+        min-height: 45vh;
+        padding: 40px 20px;
+    }
+
+    .content {
+        width: 90%;
+    }
+
+    .logo {
+        margin-bottom: 35px;
+    }
+
+    .logo i {
+        font-size: 28px;
+    }
+
+    .logo h2 {
+        font-size: 25px;
+    }
+
+    .content h1 {
+        font-size: 35px;
+        line-height: 1.15;
+        margin-bottom: 15px;
+    }
+
+    .content p {
+        width: 100%;
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .blood-icon {
+        margin-top: 30px;
+        width: 75px;
+        height: 75px;
+    }
+
+    .blood-icon i {
+        font-size: 35px;
+    }
+
+
+    /* ================= RIGHT SIDE ================= */
+
+    .right-side {
+        width: 100%;
+        min-height: 55vh;
+        padding: 40px 20px;
+    }
+
+    .login-box {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .login-box h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .subtitle {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+    .input-box {
+        margin-bottom: 20px;
+    }
+
+    .input-field {
+        width: 100%;
+        height: 50px;
+    }
+
+    .options {
+        font-size: 13px;
+        gap: 10px;
+    }
+
+    button {
+        width: 100%;
+        height: 50px;
+        font-size: 16px;
+    }
+
+    .register {
+        font-size: 14px;
+    }
+
+}
+
+
+/* =========================================================
+   2. MOBILE LANDSCAPE
+   576px - 767.99px
+   ========================================================= */
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+
+    .login-container {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* ================= LEFT SIDE ================= */
+
+    .left-side {
+        width: 100%;
+        min-height: 42vh;
+        padding: 40px 30px;
+    }
+
+    .content {
+        width: 85%;
+    }
+
+    .logo {
+        margin-bottom: 30px;
+    }
+
+    .logo i {
+        font-size: 30px;
+    }
+
+    .logo h2 {
+        font-size: 27px;
+    }
+
+    .content h1 {
+        font-size: 38px;
+        line-height: 1.15;
+    }
+
+    .content p {
+        width: 90%;
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .blood-icon {
+        margin-top: 25px;
+        width: 80px;
+        height: 80px;
+    }
+
+    .blood-icon i {
+        font-size: 38px;
+    }
+
+
+    /* ================= RIGHT SIDE ================= */
+
+    .right-side {
+        width: 100%;
+        min-height: 58vh;
+        padding: 40px 30px;
+    }
+
+    .login-box {
+        width: 90%;
+        max-width: 450px;
+    }
+
+    .login-box h1 {
+        font-size: 32px;
+    }
+
+    .subtitle {
+        margin-bottom: 30px;
+    }
+
+}
+
+
+/* =========================================================
+   3. TABLET
+   768px - 991.99px
+   ========================================================= */
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+
+    .login-container {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* ================= LEFT SIDE ================= */
+
+    .left-side {
+        width: 100%;
+        min-height: 45vh;
+        padding: 50px 40px;
+    }
+
+    .content {
+        width: 80%;
+    }
+
+    .logo {
+        margin-bottom: 35px;
+    }
+
+    .logo i {
+        font-size: 32px;
+    }
+
+    .logo h2 {
+        font-size: 28px;
+    }
+
+    .content h1 {
+        font-size: 42px;
+        line-height: 1.15;
+    }
+
+    .content p {
+        width: 85%;
+        font-size: 17px;
+        line-height: 27px;
+    }
+
+    .blood-icon {
+        margin-top: 30px;
+    }
+
+
+    /* ================= RIGHT SIDE ================= */
+
+    .right-side {
+        width: 100%;
+        min-height: 55vh;
+        padding: 50px 40px;
+    }
+
+    .login-box {
+        width: 70%;
+        max-width: 450px;
+    }
+
+    .login-box h1 {
+        font-size: 35px;
+    }
+
+}
+
+
+/* =========================================================
+   4. LAPTOP
+   992px - 1199.99px
+   ========================================================= */
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+
+    .login-container {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: row;
+    }
+
+    /* ================= LEFT SIDE ================= */
+
+    .left-side {
+        width: 50%;
+    }
+
+    .content {
+        width: 75%;
+    }
+
+    .logo {
+        margin-bottom: 60px;
+    }
+
+    .content h1 {
+        font-size: 45px;
+    }
+
+    .content p {
+        width: 90%;
+        font-size: 17px;
+        line-height: 28px;
+    }
+
+    .blood-icon {
+        margin-top: 45px;
+    }
+
+
+    /* ================= RIGHT SIDE ================= */
+
+    .right-side {
+        width: 50%;
+        padding: 30px;
+    }
+
+    .login-box {
+        width: 85%;
+        max-width: 400px;
+    }
+
+    .login-box h1 {
+        font-size: 36px;
+    }
+
+}
+
+
+/* =========================================================
+   5. LARGE DESKTOP
+   1200px - 1399.99px
+   ========================================================= */
+
+@media (min-width: 1200px) and (max-width: 1399.99px) {
+
+    .login-container {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: row;
+    }
+
+    /* ================= LEFT SIDE ================= */
+
+    .left-side {
+        width: 50%;
+    }
+
+    .content {
+        width: 70%;
+    }
+
+    .logo {
+        margin-bottom: 70px;
+    }
+
+    .content h1 {
+        font-size: 50px;
+    }
+
+    .content p {
+        width: 80%;
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .blood-icon {
+        margin-top: 50px;
+    }
+
+
+    /* ================= RIGHT SIDE ================= */
+
+    .right-side {
+        width: 50%;
+    }
+
+    .login-box {
+        width: 400px;
+    }
+
+    .login-box h1 {
+        font-size: 38px;
+    }
+
+}
+
+
+/* =========================================================
+   6. EXTRA LARGE DESKTOP
+   1400px+
+   ========================================================= */
+
+@media (min-width: 1400px) {
+
+    .login-container {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: row;
+    }
+
+    /* ================= LEFT SIDE ================= */
+
+    .left-side {
+        width: 50%;
+    }
+
+    .content {
+        width: 70%;
+        max-width: 650px;
+    }
+
+    .logo {
+        margin-bottom: 70px;
+    }
+
+    .logo i {
+        font-size: 35px;
+    }
+
+    .logo h2 {
+        font-size: 30px;
+    }
+
+    .content h1 {
+        font-size: 50px;
+    }
+
+    .content p {
+        width: 80%;
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .blood-icon {
+        margin-top: 50px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .blood-icon i {
+        font-size: 45px;
+    }
+
+
+    /* ================= RIGHT SIDE ================= */
+
+    .right-side {
+        width: 50%;
+    }
+
+    .login-box {
+        width: 400px;
+    }
+
+    .login-box h1 {
+        font-size: 38px;
+    }
+
+}

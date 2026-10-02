@@ -1,0 +1,2169 @@
+
+/* ================= EMERGENCY HERO ================= */
+
+.emergency-hero {
+    min-height: 390px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    padding: 70px 7%;
+
+    background:
+        linear-gradient(
+            rgba(17, 24, 39, 0.88),
+            rgba(17, 24, 39, 0.92)
+        ),
+        url("./images/heros.jpeg");
+
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-content {
+    max-width: 750px;
+}
+
+.emergency-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    padding: 10px 18px;
+
+    background: rgba(255, 255, 255, 0.12);
+
+    color: #ffffff;
+
+    border-radius: 30px;
+
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.hero-content h1 {
+    margin: 25px 0 20px;
+
+    color: #ffffff;
+
+    font-size: 58px;
+    line-height: 1.1;
+}
+
+.hero-content h1 span {
+    color: #e51b23;
+}
+
+.hero-content p {
+    max-width: 650px;
+
+    margin: auto;
+
+    color: #d1d5db;
+
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+
+/* ================= EMERGENCY SECTION ================= */
+
+.emergency-section {
+    padding: 90px 7%;
+
+    background: #f8fafc;
+}
+
+.emergency-container {
+    max-width: 1200px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 70px;
+
+    align-items: start;
+}
+
+
+/* ================= LEFT CONTENT ================= */
+
+.emergency-info {
+    padding-top: 15px;
+}
+
+.section-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    color: #e51b23;
+
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.emergency-info h2 {
+    margin: 20px 0;
+
+    font-size: 42px;
+    line-height: 1.2;
+}
+
+.emergency-info h2 span {
+    display: block;
+
+    color: #e51b23;
+}
+
+.emergency-info > p {
+    max-width: 540px;
+
+    color: #667085;
+
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+
+/* ================= INFO CARDS ================= */
+
+.info-cards {
+    margin-top: 35px;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 16px;
+}
+
+.info-card {
+    display: flex;
+    align-items: center;
+
+    gap: 18px;
+
+    padding: 18px;
+
+    background: #ffffff;
+
+    border: 1px solid #e5e7eb;
+
+    border-radius: 16px;
+
+    transition: 0.3s;
+}
+
+.info-card:hover {
+    transform: translateX(5px);
+
+    box-shadow:
+        0 10px 30px rgba(17, 24, 39, 0.08);
+}
+
+.info-icon {
+    width: 50px;
+    height: 50px;
+
+    flex-shrink: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #ffe4e6;
+
+    color: #e51b23;
+
+    border-radius: 14px;
+
+    font-size: 20px;
+}
+
+.info-card h3 {
+    margin-bottom: 5px;
+
+    font-size: 16px;
+}
+
+.info-card p {
+    color: #667085;
+
+    font-size: 13px;
+
+    line-height: 1.5;
+}
+
+
+/* ================= IMPORTANT NOTE ================= */
+
+.emergency-note {
+    display: flex;
+
+    gap: 15px;
+
+    margin-top: 25px;
+
+    padding: 20px;
+
+    background: #fff1f2;
+
+    border-left: 4px solid #e51b23;
+
+    border-radius: 12px;
+}
+
+.emergency-note > i {
+    padding-top: 3px;
+
+    color: #e51b23;
+
+    font-size: 22px;
+}
+
+.emergency-note h3 {
+    margin-bottom: 6px;
+
+    font-size: 15px;
+}
+
+.emergency-note p {
+    color: #667085;
+
+    font-size: 13px;
+
+    line-height: 1.6;
+}
+
+
+/* ================= REQUEST CARD ================= */
+
+.request-card {
+    padding: 35px;
+
+    background: #ffffff;
+
+    border: 1px solid #e5e7eb;
+
+    border-radius: 24px;
+
+    box-shadow:
+        0 20px 50px rgba(17, 24, 39, 0.10);
+}
+
+.request-heading {
+    display: flex;
+    align-items: center;
+
+    gap: 15px;
+
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.request-icon {
+    width: 55px;
+    height: 55px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #e51b23;
+
+    color: #ffffff;
+
+    border-radius: 15px;
+
+    font-size: 21px;
+}
+
+.request-heading h2 {
+    margin-bottom: 5px;
+
+    font-size: 24px;
+}
+
+.request-heading p {
+    color: #667085;
+
+    font-size: 13px;
+}
+
+
+/* ================= FORM ================= */
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-group label {
+    display: block;
+
+    margin-bottom: 8px;
+
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.input-box {
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 0 14px;
+
+    background: #ffffff;
+
+    border: 1px solid #d1d5db;
+
+    border-radius: 11px;
+
+    transition: 0.3s;
+}
+
+.input-box:focus-within {
+    border-color: #e51b23;
+
+    box-shadow:
+        0 0 0 3px #fff1f2;
+}
+
+.input-box > i {
+    margin-right: 11px;
+
+    color: #9ca3af;
+}
+
+.input-box input,
+.input-box select {
+    width: 100%;
+    height: 100%;
+
+    border: none;
+    outline: none;
+
+    background: transparent;
+
+    color: #111827;
+
+    font-size: 14px;
+}
+
+.input-box input::placeholder {
+    color: #9ca3af;
+}
+
+.input-box select {
+    cursor: pointer;
+}
+
+.form-row {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 15px;
+}
+
+
+/* ================= TEXTAREA ================= */
+
+textarea {
+    width: 100%;
+    height: 100px;
+
+    padding: 14px;
+
+    resize: vertical;
+
+    border: 1px solid #d1d5db;
+
+    border-radius: 11px;
+
+    outline: none;
+
+    background: #ffffff;
+
+    color: #111827;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 14px;
+
+    transition: 0.3s;
+}
+
+textarea::placeholder {
+    color: #9ca3af;
+}
+
+textarea:focus {
+    border-color: #e51b23;
+
+    box-shadow:
+        0 0 0 3px #fff1f2;
+}
+
+
+/* ================= REQUEST BUTTON ================= */
+
+.request-btn {
+    width: 100%;
+    min-height: 52px;
+
+    border: none;
+
+    border-radius: 12px;
+
+    background: #e51b23;
+
+    color: #ffffff;
+
+    font-size: 14px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.request-btn i {
+    margin-right: 8px;
+}
+
+.request-btn:hover {
+    background: #b90f18;
+
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 10px 25px rgba(229, 27, 35, 0.25);
+}
+
+
+/* ================= HOW IT WORKS ================= */
+
+.how-section {
+    padding: 90px 7%;
+
+    background: #ffffff;
+}
+
+.section-heading {
+    max-width: 700px;
+
+    margin: auto;
+
+    text-align: center;
+}
+
+.section-heading > span {
+    color: #e51b23;
+
+    font-size: 14px;
+
+    font-weight: bold;
+}
+
+.section-heading h2 {
+    margin: 15px 0;
+
+    font-size: 38px;
+}
+
+.section-heading p {
+    color: #667085;
+
+    line-height: 1.6;
+}
+
+
+/* ================= STEPS ================= */
+
+.steps-container {
+    max-width: 1200px;
+
+    margin: 50px auto 0;
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 20px;
+}
+
+.step-card {
+    position: relative;
+
+    padding: 35px 22px;
+
+    text-align: center;
+
+    background: #ffffff;
+
+    border: 1px solid #e5e7eb;
+
+    border-radius: 20px;
+
+    transition: 0.3s;
+}
+
+.step-card:hover {
+    transform: translateY(-8px);
+
+    box-shadow:
+        0 15px 40px rgba(17, 24, 39, 0.10);
+}
+
+.step-number {
+    position: absolute;
+
+    top: 15px;
+    right: 18px;
+
+    color: #e51b23;
+
+    font-size: 12px;
+
+    font-weight: bold;
+}
+
+.step-card > i {
+    width: 60px;
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 10px auto 20px;
+
+    background: #fff1f2;
+
+    color: #e51b23;
+
+    border-radius: 50%;
+
+    font-size: 23px;
+}
+
+.step-card h3 {
+    margin-bottom: 10px;
+
+    font-size: 17px;
+}
+
+.step-card p {
+    color: #667085;
+
+    font-size: 13px;
+
+    line-height: 1.6;
+}
+
+
+/* ================= FOOTER ================= */
+
+.footer {
+    background: #111827;
+
+    color: #ffffff;
+}
+
+.footer-container {
+    max-width: 1200px;
+
+    margin: auto;
+
+    padding: 55px 7%;
+
+    display: grid;
+
+    grid-template-columns: 2fr 1fr 1.5fr;
+
+    gap: 60px;
+}
+
+.footer-about h2 {
+    margin-bottom: 15px;
+
+    font-size: 28px;
+}
+
+.footer-about h2 span {
+    color: #e51b23;
+}
+
+.footer-about p {
+    max-width: 380px;
+
+    color: #cbd5e1;
+
+    line-height: 1.7;
+}
+
+.social-icons {
+    display: flex;
+
+    gap: 12px;
+
+    margin-top: 20px;
+}
+
+.social-icons a {
+    width: 38px;
+    height: 38px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #1f2937;
+
+    color: #ffffff;
+
+    border-radius: 50%;
+
+    text-decoration: none;
+
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    background: #e51b23;
+}
+
+.footer h3 {
+    margin-bottom: 20px;
+
+    font-size: 17px;
+}
+
+.footer-links {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 12px;
+}
+
+.footer-links a {
+    color: #cbd5e1;
+
+    text-decoration: none;
+
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    color: #e51b23;
+}
+
+.footer-contact p {
+    margin-bottom: 15px;
+
+    color: #cbd5e1;
+}
+
+.footer-contact i {
+    width: 25px;
+
+    color: #e51b23;
+}
+
+.footer-bottom {
+    padding: 20px;
+
+    text-align: center;
+
+    border-top: 1px solid #374151;
+}
+
+.footer-bottom p {
+    color: #9ca3af;
+
+    font-size: 13px;
+}
+
+
+/* ==================
+   EXTRA LARGE DESKTOP
+   1400px AND ABOVE
+   ======================*/
+
+@media (min-width: 1400px) {
+
+    .emergency-hero {
+        min-height: 430px;
+        padding: 90px 8%;
+    }
+
+    .hero-content {
+        max-width: 800px;
+    }
+
+    .hero-content h1 {
+        font-size: 62px;
+    }
+
+    .emergency-section {
+        padding: 100px 8%;
+    }
+
+    .emergency-container {
+        max-width: 1250px;
+        gap: 90px;
+    }
+
+    .request-card {
+        padding: 40px;
+    }
+
+    .how-section {
+        padding: 100px 8%;
+    }
+
+    .steps-container {
+        max-width: 1250px;
+    }
+}
+
+
+/* =========================================================
+   LARGE DESKTOP
+   1200px - 1399.99px
+   ========================================================= */
+
+@media (min-width: 1200px) and (max-width: 1399.99px) {
+
+    .emergency-hero {
+        min-height: 410px;
+        padding: 80px 7%;
+    }
+
+    .hero-content h1 {
+        font-size: 58px;
+    }
+
+    .emergency-section {
+        padding: 90px 7%;
+    }
+
+    .emergency-container {
+        max-width: 1200px;
+        gap: 60px;
+    }
+
+    .request-card {
+        padding: 35px;
+    }
+
+    .how-section {
+        padding: 90px 7%;
+    }
+
+    .steps-container {
+        max-width: 1200px;
+    }
+}
+
+
+/* =========================================================
+   LAPTOP
+   992px - 1199.99px
+   ========================================================= */
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+
+
+    /* ================= NAVBAR ================= */
+
+    .navbar {
+        width: 100%;
+        min-height: 82px;
+
+        padding: 12px 4%;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        flex-wrap: nowrap;
+
+        gap: 15px;
+    }
+
+    .logo-section {
+        flex-shrink: 0;
+    }
+
+    .navbar nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        flex: 1;
+
+        gap: 13px;
+
+        min-width: 0;
+    }
+
+    .navbar nav a {
+        font-size: 13px;
+        white-space: nowrap;
+    }
+
+    .login-btn {
+        flex-shrink: 0;
+        white-space: nowrap;
+    }
+
+
+    /* ================= HERO ================= */
+
+    .emergency-hero {
+        min-height: 380px;
+        padding: 70px 5%;
+    }
+
+    .hero-content {
+        width: 100%;
+        max-width: 700px;
+    }
+
+    .hero-content h1 {
+        font-size: 50px;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+    }
+
+
+    /* ================= EMERGENCY SECTION ================= */
+
+    .emergency-section {
+        padding: 75px 5%;
+    }
+
+    .emergency-container {
+        width: 100%;
+        max-width: 1050px;
+
+        margin: 0 auto;
+
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+
+        gap: 40px;
+    }
+
+
+    /* LEFT */
+
+    .emergency-info {
+        min-width: 0;
+    }
+
+    .emergency-info h2 {
+        font-size: 36px;
+    }
+
+    .emergency-info > p {
+        font-size: 15px;
+    }
+
+
+    /* INFO CARDS */
+
+    .info-card {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .info-card p {
+        font-size: 12px;
+    }
+
+
+    /* REQUEST CARD */
+
+    .request-card {
+        width: 100%;
+        min-width: 0;
+
+        padding: 28px;
+
+        box-sizing: border-box;
+    }
+
+    .request-heading h2 {
+        font-size: 22px;
+    }
+
+    .input-box {
+        width: 100%;
+    }
+
+
+    /* ================= HOW IT WORKS ================= */
+
+    .how-section {
+        padding: 75px 5%;
+    }
+
+    .section-heading h2 {
+        font-size: 36px;
+    }
+
+    .steps-container {
+        width: 100%;
+        max-width: 1050px;
+
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+
+        gap: 15px;
+    }
+
+    .step-card {
+        padding: 30px 15px;
+    }
+
+    .step-card p {
+        font-size: 12px;
+    }
+
+
+    /* ================= FOOTER ================= */
+
+    .footer-main {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+
+/* =========================================================
+   TABLET
+   768px - 991.99px
+   ========================================================= */
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+
+
+    /* ================= GLOBAL ================= */
+
+    html,
+    body {
+        width: 100%;
+        max-width: 100%;
+
+        overflow-x: hidden;
+    }
+
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+
+
+    /* ================= NAVBAR ================= */
+
+    .navbar {
+        width: 100%;
+        min-height: 82px;
+
+        padding: 12px 4%;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        /*
+           LOGIN STAYS IN SAME ROW
+        */
+        flex-wrap: nowrap;
+
+        gap: 10px;
+    }
+
+    .logo-section {
+        flex-shrink: 0;
+    }
+
+    .navbar nav {
+
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+
+        flex: 1;
+
+        min-width: 0;
+
+        gap: 9px;
+    }
+
+    .navbar nav a {
+        font-size: 11px;
+
+        white-space: nowrap;
+    }
+
+    .login-btn {
+        flex-shrink: 0;
+
+        white-space: nowrap;
+
+        padding: 9px 13px;
+
+        font-size: 12px;
+    }
+
+
+    /* ================= HERO ================= */
+
+    .emergency-hero {
+        width: 100%;
+
+        min-height: 350px;
+
+        padding: 60px 5%;
+    }
+
+    .hero-content {
+        width: 100%;
+        max-width: 650px;
+    }
+
+    .emergency-badge {
+        font-size: 13px;
+    }
+
+    .hero-content h1 {
+        font-size: 44px;
+    }
+
+    .hero-content p {
+        font-size: 15px;
+    }
+
+
+    /* ================= EMERGENCY SECTION ================= */
+
+    .emergency-section {
+        width: 100%;
+
+        padding: 65px 5%;
+    }
+
+    .emergency-container {
+
+        width: 100%;
+        max-width: 750px;
+
+        margin: 0 auto;
+
+        /*
+           LEFT + FORM
+           ONE BELOW ANOTHER
+        */
+        display: grid;
+
+        grid-template-columns: 1fr;
+
+        gap: 45px;
+    }
+
+
+    /* LEFT CONTENT */
+
+    .emergency-info {
+        width: 100%;
+
+        padding-top: 0;
+    }
+
+    .emergency-info h2 {
+        font-size: 36px;
+    }
+
+    .emergency-info > p {
+        max-width: 650px;
+
+        font-size: 15px;
+    }
+
+
+    /* INFO CARDS */
+
+    .info-cards {
+        width: 100%;
+
+        display: grid;
+
+        grid-template-columns: 1fr 1fr;
+
+        gap: 15px;
+    }
+
+    .info-card {
+        width: 100%;
+
+        min-width: 0;
+
+        padding: 16px;
+
+        box-sizing: border-box;
+    }
+
+    .info-card h3 {
+        font-size: 15px;
+    }
+
+    .info-card p {
+        font-size: 12px;
+    }
+
+    .info-icon {
+        width: 45px;
+        height: 45px;
+
+        font-size: 18px;
+    }
+
+
+    /* IMPORTANT NOTE */
+
+    .emergency-note {
+        width: 100%;
+
+        box-sizing: border-box;
+    }
+
+
+    /* ================= REQUEST FORM ================= */
+
+    .request-card {
+        width: 100%;
+
+        max-width: 700px;
+
+        margin: 0 auto;
+
+        padding: 30px;
+
+        box-sizing: border-box;
+    }
+
+    .form-row {
+        display: grid;
+
+        grid-template-columns: 1fr 1fr;
+
+        gap: 15px;
+    }
+
+    .input-box {
+        width: 100%;
+    }
+
+    .request-btn {
+        width: 100%;
+    }
+
+
+    /* ================= HOW IT WORKS ================= */
+
+    .how-section {
+        width: 100%;
+
+        padding: 65px 5%;
+    }
+
+    .section-heading {
+        width: 100%;
+        max-width: 650px;
+    }
+
+    .section-heading h2 {
+        font-size: 34px;
+    }
+
+    .steps-container {
+
+        width: 100%;
+        max-width: 750px;
+
+        margin: 40px auto 0;
+
+        display: grid;
+
+        grid-template-columns: 1fr 1fr;
+
+        gap: 20px;
+    }
+
+    .step-card {
+        width: 100%;
+
+        box-sizing: border-box;
+    }
+
+
+    /* ================= FOOTER ================= */
+
+    .footer-main {
+        grid-template-columns: 1fr 1fr;
+
+        gap: 30px;
+
+        text-align: left;
+    }
+}
+
+
+/* =========================================================
+   MOBILE LANDSCAPE
+   576px - 767.99px
+   ========================================================= */
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+
+
+    /* ================= GLOBAL ================= */
+
+    html,
+    body {
+        width: 100%;
+        max-width: 100%;
+
+        overflow-x: hidden;
+    }
+
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+
+
+    /* ================= NAVBAR ================= */
+
+    .navbar {
+        width: 100%;
+
+        min-height: 70px;
+
+        padding: 10px 4%;
+
+        display: flex;
+        align-items: center;
+
+        flex-wrap: wrap;
+
+        gap: 8px;
+    }
+
+    .logo-section {
+        flex-shrink: 0;
+    }
+
+    .login-btn {
+
+        /*
+           LOGIN STAYS BESIDE LOGO
+        */
+
+        margin-left: auto;
+
+        flex-shrink: 0;
+
+        white-space: nowrap;
+
+        padding: 9px 14px;
+
+        font-size: 12px;
+    }
+
+    .navbar nav {
+
+        /*
+           NAV LINKS GO BELOW
+        */
+
+        width: 100%;
+
+        order: 3;
+
+        display: flex;
+
+        justify-content: center;
+        align-items: center;
+
+        flex-wrap: wrap;
+
+        gap: 10px;
+    }
+
+    .navbar nav a {
+        font-size: 12px;
+
+        white-space: nowrap;
+    }
+
+
+    /* ================= HERO ================= */
+
+    .emergency-hero {
+        width: 100%;
+
+        min-height: 320px;
+
+        padding: 55px 5%;
+    }
+
+    .hero-content {
+        width: 100%;
+        max-width: 650px;
+    }
+
+    .emergency-badge {
+        font-size: 12px;
+
+        padding: 9px 15px;
+    }
+
+    .hero-content h1 {
+        margin: 20px 0 15px;
+
+        font-size: 40px;
+    }
+
+    .hero-content p {
+        font-size: 14px;
+
+        line-height: 1.6;
+    }
+
+
+    /* ================= EMERGENCY SECTION ================= */
+
+    .emergency-section {
+        width: 100%;
+
+        padding: 55px 5%;
+    }
+
+    .emergency-container {
+
+        width: 100%;
+        max-width: 650px;
+
+        margin: 0 auto;
+
+        display: grid;
+
+        grid-template-columns: 1fr;
+
+        gap: 40px;
+    }
+
+
+    /* LEFT */
+
+    .emergency-info {
+        width: 100%;
+        padding-top: 0;
+    }
+
+    .emergency-info h2 {
+        font-size: 32px;
+    }
+
+    .emergency-info > p {
+        font-size: 14px;
+    }
+
+
+    /* INFO CARDS */
+
+    .info-cards {
+        width: 100%;
+
+        display: grid;
+
+        grid-template-columns: 1fr 1fr;
+
+        gap: 14px;
+    }
+
+    .info-card {
+        width: 100%;
+
+        min-width: 0;
+
+        padding: 15px;
+
+        gap: 12px;
+    }
+
+    .info-icon {
+        width: 42px;
+        height: 42px;
+
+        font-size: 17px;
+    }
+
+    .info-card h3 {
+        font-size: 14px;
+    }
+
+    .info-card p {
+        font-size: 11px;
+    }
+
+
+    /* IMPORTANT NOTE */
+
+    .emergency-note {
+        width: 100%;
+
+        padding: 17px;
+
+        box-sizing: border-box;
+    }
+
+
+    /* ================= REQUEST CARD ================= */
+
+    .request-card {
+
+        width: 100%;
+        max-width: 650px;
+
+        margin: 0 auto;
+
+        padding: 25px;
+
+        box-sizing: border-box;
+
+        border-radius: 20px;
+    }
+
+    .request-heading h2 {
+        font-size: 21px;
+    }
+
+    .form-row {
+
+        grid-template-columns: 1fr;
+
+        gap: 0;
+    }
+
+    .input-box {
+        width: 100%;
+    }
+
+    .request-btn {
+        width: 100%;
+
+        min-height: 52px;
+    }
+
+
+    /* ================= HOW IT WORKS ================= */
+
+    .how-section {
+        width: 100%;
+
+        padding: 55px 5%;
+    }
+
+    .section-heading {
+        width: 100%;
+    }
+
+    .section-heading h2 {
+        font-size: 31px;
+    }
+
+    .section-heading p {
+        font-size: 14px;
+    }
+
+    .steps-container {
+
+        width: 100%;
+        max-width: 650px;
+
+        margin: 35px auto 0;
+
+        display: grid;
+
+        grid-template-columns: 1fr 1fr;
+
+        gap: 18px;
+    }
+
+    .step-card {
+        width: 100%;
+
+        padding: 28px 18px;
+
+        box-sizing: border-box;
+    }
+
+    .step-card h3 {
+        font-size: 16px;
+    }
+
+    .step-card p {
+        font-size: 12px;
+    }
+
+
+    /* ================= FOOTER ================= */
+
+    .footer-main {
+        grid-template-columns: 1fr 1fr;
+
+        gap: 25px;
+    }
+}
+
+
+/* =========================================================
+   MOBILE
+   0px - 575.99px
+   ========================================================= */
+
+@media (max-width: 575.99px) {
+
+
+    /* ================= GLOBAL ================= */
+
+    html,
+    body {
+        width: 100%;
+        max-width: 100%;
+
+        margin: 0;
+        padding: 0;
+
+        overflow-x: hidden;
+    }
+
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+
+
+    /* =====================================================
+       NAVBAR
+       ===================================================== */
+
+    .navbar {
+
+        width: 100%;
+
+        min-height: 70px;
+
+        padding: 10px 15px;
+
+        display: flex;
+
+        align-items: center;
+
+        /*
+           LOGO + LOGIN SAME ROW
+        */
+
+        flex-wrap: wrap;
+
+        gap: 8px;
+    }
+
+    .logo-section {
+        flex-shrink: 0;
+    }
+
+    .logo-icon {
+        flex-shrink: 0;
+    }
+
+    .text-content {
+        font-size: 12px;
+    }
+
+
+    /* LOGIN */
+
+    .login-btn {
+
+        margin-left: auto;
+
+        flex-shrink: 0;
+
+        white-space: nowrap;
+
+        padding: 9px 13px;
+
+        font-size: 11px;
+    }
+
+
+    /* NAV LINKS */
+
+    .navbar nav {
+
+        width: 100%;
+
+        order: 3;
+
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+
+        flex-wrap: wrap;
+
+        gap: 8px;
+    }
+
+    .navbar nav a {
+
+        font-size: 10px;
+
+        white-space: nowrap;
+    }
+
+
+    /* =====================================================
+       EMERGENCY HERO
+       ===================================================== */
+
+    .emergency-hero {
+
+        width: 100%;
+
+        min-height: 300px;
+
+        padding: 50px 18px;
+
+        display: flex;
+
+        align-items: center;
+
+        justify-content: center;
+
+        text-align: center;
+    }
+
+    .hero-content {
+
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .emergency-badge {
+
+        font-size: 11px;
+
+        padding: 8px 13px;
+    }
+
+    .hero-content h1 {
+
+        margin: 20px 0 15px;
+
+        font-size: 34px;
+
+        line-height: 1.15;
+    }
+
+    .hero-content p {
+
+        width: 100%;
+
+        font-size: 14px;
+
+        line-height: 1.6;
+    }
+
+
+    /* =====================================================
+       EMERGENCY SECTION
+       ===================================================== */
+
+    .emergency-section {
+
+        width: 100%;
+
+        padding: 50px 18px;
+    }
+
+    .emergency-container {
+
+        width: 100%;
+        max-width: 100%;
+
+        margin: 0 auto;
+
+        display: grid;
+
+        /*
+           LEFT FIRST
+           FORM SECOND
+        */
+
+        grid-template-columns: 1fr;
+
+        gap: 35px;
+    }
+
+
+    /* =====================================================
+       LEFT CONTENT
+       ===================================================== */
+
+    .emergency-info {
+
+        width: 100%;
+
+        padding-top: 0;
+    }
+
+    .section-label {
+
+        font-size: 12px;
+    }
+
+    .emergency-info h2 {
+
+        margin: 15px 0;
+
+        font-size: 29px;
+
+        line-height: 1.2;
+    }
+
+    .emergency-info > p {
+
+        width: 100%;
+
+        font-size: 14px;
+
+        line-height: 1.6;
+    }
+
+
+    /* =====================================================
+       INFO CARDS
+       ===================================================== */
+
+    .info-cards {
+
+        width: 100%;
+
+        margin-top: 28px;
+
+        display: grid;
+
+        /*
+           ONE CARD PER ROW
+        */
+
+        grid-template-columns: minmax(0, 1fr);
+
+        gap: 14px;
+    }
+
+    .info-card {
+
+        width: 100%;
+        max-width: 100%;
+
+        margin: 0;
+
+        display: flex;
+
+        align-items: center;
+
+        gap: 12px;
+
+        padding: 15px;
+
+        box-sizing: border-box;
+    }
+
+    .info-icon {
+
+        width: 44px;
+        height: 44px;
+
+        flex-shrink: 0;
+
+        font-size: 18px;
+    }
+
+    .info-card h3 {
+
+        margin-bottom: 4px;
+
+        font-size: 15px;
+    }
+
+    .info-card p {
+
+        font-size: 12px;
+
+        line-height: 1.5;
+    }
+
+
+    /* =====================================================
+       IMPORTANT NOTE
+       ===================================================== */
+
+    .emergency-note {
+
+        width: 100%;
+
+        margin-top: 20px;
+
+        padding: 16px;
+
+        display: flex;
+
+        gap: 12px;
+
+        box-sizing: border-box;
+    }
+
+    .emergency-note > i {
+
+        flex-shrink: 0;
+
+        font-size: 19px;
+    }
+
+    .emergency-note h3 {
+
+        font-size: 14px;
+    }
+
+    .emergency-note p {
+
+        font-size: 12px;
+
+        line-height: 1.5;
+    }
+
+
+    /* =====================================================
+       REQUEST CARD
+       ===================================================== */
+
+    .request-card {
+
+        width: 100%;
+        max-width: 100%;
+
+        margin: 0 auto;
+
+        padding: 20px 16px;
+
+        box-sizing: border-box;
+
+        border-radius: 18px;
+    }
+
+
+    /* REQUEST HEADING */
+
+    .request-heading {
+
+        gap: 12px;
+
+        margin-bottom: 22px;
+
+        padding-bottom: 20px;
+    }
+
+    .request-icon {
+
+        width: 48px;
+        height: 48px;
+
+        flex-shrink: 0;
+
+        font-size: 18px;
+    }
+
+    .request-heading h2 {
+
+        font-size: 20px;
+    }
+
+    .request-heading p {
+
+        font-size: 11px;
+    }
+
+
+    /* =====================================================
+       FORM
+       ===================================================== */
+
+    .form-group {
+
+        width: 100%;
+
+        margin-bottom: 16px;
+    }
+
+    .form-group label {
+
+        margin-bottom: 7px;
+
+        font-size: 12px;
+    }
+
+
+    /* DISTRICT + CITY */
+
+    .form-row {
+
+        width: 100%;
+
+        display: grid;
+
+        grid-template-columns: minmax(0, 1fr);
+
+        gap: 0;
+    }
+
+
+    /* INPUT */
+
+    .input-box {
+
+        width: 100%;
+
+        height: 48px;
+
+        padding: 0 12px;
+
+        box-sizing: border-box;
+    }
+
+    .input-box > i {
+
+        margin-right: 9px;
+
+        flex-shrink: 0;
+    }
+
+    .input-box input,
+    .input-box select {
+
+        min-width: 0;
+
+        font-size: 13px;
+    }
+
+
+    /* TEXTAREA */
+
+    textarea {
+
+        width: 100%;
+
+        height: 100px;
+
+        box-sizing: border-box;
+
+        font-size: 13px;
+    }
+
+
+    /* BUTTON */
+
+    .request-btn {
+
+        width: 100%;
+
+        min-height: 52px;
+
+        padding: 10px;
+
+        font-size: 13px;
+
+        line-height: 1.4;
+    }
+
+
+    /* =====================================================
+       HOW IT WORKS
+       ===================================================== */
+
+    .how-section {
+
+        width: 100%;
+
+        padding: 50px 18px;
+    }
+
+    .section-heading {
+
+        width: 100%;
+        max-width: 100%;
+
+        text-align: center;
+    }
+
+    .section-heading > span {
+
+        font-size: 12px;
+    }
+
+    .section-heading h2 {
+
+        margin: 12px 0;
+
+        font-size: 29px;
+
+        line-height: 1.2;
+    }
+
+    .section-heading p {
+
+        font-size: 13px;
+
+        line-height: 1.6;
+    }
+
+
+    /* =====================================================
+       STEP CARDS
+       ===================================================== */
+
+    .steps-container {
+
+        width: 100%;
+        max-width: 100%;
+
+        margin: 30px auto 0;
+
+        display: grid;
+
+        /*
+           ONE CARD PER ROW
+        */
+
+        grid-template-columns: minmax(0, 1fr);
+
+        gap: 16px;
+    }
+
+    .step-card {
+
+        width: 100%;
+        max-width: 100%;
+
+        margin: 0;
+
+        padding: 28px 20px;
+
+        box-sizing: border-box;
+    }
+
+    .step-number {
+
+        top: 13px;
+        right: 15px;
+    }
+
+    .step-card > i {
+
+        width: 55px;
+        height: 55px;
+
+        margin-bottom: 17px;
+
+        font-size: 21px;
+    }
+
+    .step-card h3 {
+
+        font-size: 16px;
+    }
+
+    .step-card p {
+
+        font-size: 12px;
+
+        line-height: 1.6;
+    }
+
+
+    /* =====================================================
+       FOOTER
+       ===================================================== */
+
+    .footer-main {
+
+        width: 100%;
+
+        grid-template-columns: 1fr;
+
+        gap: 30px;
+
+        text-align: center;
+    }
+
+    .footer-brand,
+    .footer-column {
+
+        width: 100%;
+    }
+
+    .contact-us {
+
+        width: 100%;
+    }
+
+    .contact-item {
+
+        justify-content: center;
+    }
+
+    .footer-bottom {
+
+        width: 100%;
+
+        text-align: center;
+    }
+
+    .follow-us {
+
+        justify-content: center;
+    }
+}
+

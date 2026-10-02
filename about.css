@@ -1,0 +1,1588 @@
+/* 
+   ABOUT PAGE
+ */
+
+.about-page {
+    background: #f8fafc;
+}
+
+
+/* =======================HERO================*/
+
+.about-hero {
+    min-height: 580px;
+
+    padding: 80px 7%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 60px;
+
+    background: #fff1f2;
+}
+
+.about-hero-content {
+    max-width: 600px;
+}
+
+.about-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    padding: 9px 18px;
+
+    background: #ffe4e6;
+
+    color: #e51b23;
+
+    border-radius: 30px;
+
+    font-size: 12px;
+    font-weight: 700;
+
+    letter-spacing: 1px;
+}
+
+.about-hero-content h1 {
+    margin: 20px 0 15px;
+
+    color: #111827;
+
+    font-size: 58px;
+
+    line-height: 1.1;
+}
+
+.about-hero-content h1 span {
+    display: block;
+
+    color: #e51b23;
+}
+
+.about-hero-content p {
+    max-width: 550px;
+
+    color: #667085;
+
+    font-size: 16px;
+
+    line-height: 1.7;
+
+    margin-bottom: 28px;
+}
+
+.about-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 14px 23px;
+
+    background: #e51b23;
+
+    color: #ffffff;
+
+    border-radius: 9px;
+
+    text-decoration: none;
+
+    font-size: 13px;
+    font-weight: 700;
+
+    transition: 0.3s ease;
+}
+
+.about-btn:hover {
+    background: #b90f18;
+
+    transform: translateY(-3px);
+}
+
+
+/* =========================================
+   HERO VISUAL
+========================================= */
+
+.about-hero-visual {
+    width: 450px;
+    height: 400px;
+
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heart-circle {
+    width: 250px;
+    height: 250px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #e51b23;
+
+    color: #ffffff;
+
+    border-radius: 50%;
+
+    font-size: 90px;
+
+    box-shadow: 0 25px 60px rgba(229, 27, 35, 0.22);
+
+    transform-origin: bottom center;
+
+    animation: rotateHeart 2s ease-in-out infinite alternate;
+
+    
+}
+
+@keyframes rotateHeart {
+    from {
+        transform: rotate(-25deg);
+    }
+
+    to {
+        transform: rotate(25deg);
+    }
+}
+
+
+.floating-card {
+    position: absolute;
+
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    padding: 13px 18px;
+
+    background: #ffffff;
+
+    border-radius: 13px;
+
+    box-shadow: 0 15px 40px rgba(17, 24, 39, 0.12);
+}
+
+.floating-card i {
+    width: 40px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #fff1f2;
+
+    color: #e51b23;
+
+    border-radius: 10px;
+}
+
+.floating-card strong {
+    display: block;
+
+    color: #111827;
+
+    font-size: 13px;
+}
+
+.floating-card span {
+    display: block;
+
+    color: #667085;
+
+    font-size: 11px;
+
+    margin-top: 3px;
+}
+
+.card-one {
+    top: 35px;
+    right: 0;
+}
+
+.card-two {
+    bottom: 35px;
+    left: 0;
+}
+
+
+/* =========================================
+   INTRO
+========================================= */
+
+.about-intro {
+    max-width: 1200px;
+
+    margin: auto;
+
+    padding: 100px 0;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 70px;
+
+    align-items: center;
+}
+
+.intro-image {
+    height: 450px;
+
+    position: relative;
+
+    border-radius: 25px;
+
+    overflow: hidden;
+}
+
+.intro-image img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+.intro-badge {
+    position: absolute;
+
+    left: 20px;
+    bottom: 20px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 13px 17px;
+
+    background: #ffffff;
+
+    border-radius: 10px;
+
+    color: #111827;
+
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.intro-badge i {
+    color: #e51b23;
+}
+
+.intro-content > span {
+    color: #e51b23;
+
+    font-size: 12px;
+
+    font-weight: 700;
+
+    letter-spacing: 1.5px;
+}
+
+.intro-content h2 {
+    margin: 12px 0 18px;
+
+    color: #111827;
+
+    font-size: 38px;
+
+    line-height: 1.2;
+}
+
+.intro-content h2 strong {
+    display: block;
+
+    color: #e51b23;
+}
+
+.intro-content p {
+    color: #667085;
+
+    font-size: 14px;
+
+    line-height: 1.7;
+}
+
+.intro-points {
+    margin-top: 25px;
+
+    display: grid;
+
+    gap: 12px;
+}
+
+.intro-points div {
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    color: #111827;
+
+    font-size: 13px;
+
+    font-weight: 600;
+}
+
+.intro-points i {
+    color: #e51b23;
+}
+
+
+/* =========================================
+   MISSION
+========================================= */
+
+.mission {
+    padding: 90px 7%;
+
+    background: #ffffff;
+
+    text-align: center;
+}
+
+.mission-heading {
+    margin-bottom: 45px;
+}
+
+.mission-heading span {
+    color: #e51b23;
+
+    font-size: 12px;
+
+    font-weight: 700;
+
+    letter-spacing: 1.5px;
+}
+
+.mission-heading h2 {
+    margin: 10px 0;
+
+    color: #111827;
+
+    font-size: 38px;
+}
+
+.mission-heading strong {
+    color: #e51b23;
+}
+
+.mission-cards {
+    max-width: 1150px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 20px;
+}
+
+.mission-card {
+    padding: 32px 25px;
+
+    border: 1px solid #e5e7eb;
+
+    border-radius: 18px;
+
+    transition: 0.3s ease;
+}
+
+.mission-card:hover {
+    transform: translateY(-7px);
+
+    border-color: #e51b23;
+
+    box-shadow: 0 15px 40px rgba(17, 24, 39, 0.10);
+}
+
+.mission-icon {
+    width: 60px;
+    height: 60px;
+
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #fff1f2;
+
+    color: #e51b23;
+
+    border-radius: 15px;
+
+    font-size: 23px;
+}
+
+.mission-card h3 {
+    color: #111827;
+
+    margin: 18px 0 10px;
+}
+
+.mission-card p {
+    color: #667085;
+
+    font-size: 13px;
+
+    line-height: 1.6;
+}
+
+
+/* =========================================
+   HOW IT WORKS
+========================================= */
+
+.how-section {
+    padding: 90px 7%;
+
+    background: #f8fafc;
+}
+
+.how-heading {
+    text-align: center;
+
+    margin-bottom: 50px;
+}
+
+.how-heading span {
+    color: #e51b23;
+
+    font-size: 12px;
+
+    font-weight: 700;
+
+    letter-spacing: 1.5px;
+}
+
+.how-heading h2 {
+    margin: 10px 0;
+
+    color: #111827;
+
+    font-size: 38px;
+}
+
+.how-heading strong {
+    color: #e51b23;
+}
+
+.how-steps {
+    max-width: 1150px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 20px;
+}
+
+.how-step {
+    position: relative;
+
+    padding: 30px 20px;
+
+    background: #ffffff;
+
+    border-radius: 18px;
+
+    text-align: center;
+
+    border: 1px solid #e5e7eb;
+}
+
+.step-number {
+    position: absolute;
+
+    top: 12px;
+    right: 15px;
+
+    color: #e5e7eb;
+
+    font-size: 25px;
+
+    font-weight: 800;
+}
+
+.how-step > i {
+    margin-top: 15px;
+
+    color: #e51b23;
+
+    font-size: 28px;
+}
+
+.how-step h3 {
+    color: #111827;
+
+    margin: 15px 0 8px;
+}
+
+.how-step p {
+    margin: 0;
+
+    color: #667085;
+
+    font-size: 12px;
+
+    line-height: 1.6;
+}
+
+
+/* =========================================
+   WHY REDLIFE
+========================================= */
+
+.why-redlife {
+    padding: 90px 7%;
+
+    background: #ffffff;
+}
+
+.why-heading {
+    text-align: center;
+
+    margin-bottom: 45px;
+}
+
+.why-heading span {
+    color: #e51b23;
+
+    font-size: 12px;
+
+    font-weight: 700;
+
+    letter-spacing: 1.5px;
+}
+
+.why-heading h2 {
+    margin: 10px 0;
+
+    color: #111827;
+
+    font-size: 38px;
+}
+
+.why-heading strong {
+    color: #e51b23;
+}
+
+.why-grid {
+    max-width: 1000px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 18px;
+}
+
+.why-card {
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 18px;
+
+    padding: 25px;
+
+    border: 1px solid #e5e7eb;
+
+    border-radius: 15px;
+
+    transition: 0.3s ease;
+}
+
+.why-card:hover {
+    border-color: #e51b23;
+
+    transform: translateY(-4px);
+}
+
+.why-card > i {
+    min-width: 48px;
+    height: 48px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #fff1f2;
+
+    color: #e51b23;
+
+    border-radius: 12px;
+}
+
+.why-card h3 {
+    margin: 0 0 6px;
+
+    color: #111827;
+
+    font-size: 16px;
+}
+
+.why-card p {
+    margin: 0;
+
+    color: #667085;
+
+    font-size: 12px;
+
+    line-height: 1.6;
+}
+
+
+/* =========================================
+   CTA
+========================================= */
+
+.about-cta {
+    max-width: 1200px;
+
+    margin: 0 auto 90px;
+
+    padding: 45px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 30px;
+
+    background: #e51b23;
+
+    color: #ffffff;
+
+    border-radius: 22px;
+}
+
+.about-cta span {
+    font-size: 11px;
+
+    font-weight: 700;
+
+    letter-spacing: 1.5px;
+}
+
+.about-cta h2 {
+    margin: 8px 0;
+
+    font-size: 30px;
+}
+
+.about-cta h2 strong {
+    display: block;
+}
+
+.about-cta p {
+    margin: 0;
+
+    font-size: 13px;
+
+    opacity: 0.9;
+}
+
+.about-cta a {
+    padding: 14px 22px;
+
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 9px;
+
+    background: #ffffff;
+
+    color: #e51b23;
+
+    border-radius: 9px;
+
+    text-decoration: none;
+
+    font-size: 13px;
+
+    font-weight: 700;
+
+    white-space: nowrap;
+}
+
+
+
+
+/* =========================================================
+   EXTRA LARGE DESKTOP
+   1400px and above
+========================================================= */
+
+@media (min-width: 1400px) {
+
+    .about-hero {
+        padding: 90px 8%;
+    }
+
+    .about-hero-content h1 {
+        font-size: 62px;
+    }
+
+    .about-hero-visual {
+        width: 500px;
+        height: 430px;
+    }
+
+    .heart-circle {
+        width: 270px;
+        height: 270px;
+        font-size: 95px;
+    }
+
+    .about-intro {
+        max-width: 1250px;
+    }
+
+    .mission-cards,
+    .how-steps {
+        max-width: 1200px;
+    }
+
+    .about-cta {
+        max-width: 1250px;
+    }
+}
+
+
+/* =========================================================
+   LARGE DESKTOP
+   1200px - 1399.99px
+========================================================= */
+
+@media (min-width: 1200px) and (max-width: 1399.99px) {
+
+    .about-hero {
+        padding: 80px 7%;
+    }
+
+    .about-hero-content h1 {
+        font-size: 58px;
+    }
+
+    .about-hero-visual {
+        width: 450px;
+    }
+
+    .about-intro {
+        width: 86%;
+    }
+
+    .about-cta {
+        width: 86%;
+    }
+}
+
+
+/* =========================================================
+   LAPTOP
+   992px - 1199.99px
+========================================================= */
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+
+    /* NAVBAR */
+
+    .navbar {
+        flex-wrap: nowrap;
+    }
+
+    .logo-section {
+        flex-shrink: 0;
+    }
+
+    .navbar nav {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        flex-wrap: nowrap;
+    }
+
+    .navbar nav a {
+        font-size: 13px;
+    }
+
+    .login-btn {
+        flex-shrink: 0;
+        white-space: nowrap;
+    }
+
+
+    /* HERO */
+
+    .about-hero {
+        min-height: 520px;
+
+        padding: 65px 6%;
+
+        gap: 35px;
+    }
+
+    .about-hero-content {
+        max-width: 520px;
+    }
+
+    .about-hero-content h1 {
+        font-size: 50px;
+    }
+
+    .about-hero-content p {
+        font-size: 15px;
+    }
+
+    .about-hero-visual {
+        width: 380px;
+        height: 360px;
+    }
+
+    .heart-circle {
+        width: 220px;
+        height: 220px;
+        font-size: 78px;
+    }
+
+    .floating-card {
+        padding: 11px 14px;
+    }
+
+
+    /* INTRO */
+
+    .about-intro {
+        width: 88%;
+
+        padding: 80px 0;
+
+        gap: 45px;
+    }
+
+    .intro-image {
+        height: 400px;
+    }
+
+    .intro-content h2 {
+        font-size: 34px;
+    }
+
+
+    /* MISSION */
+
+    .mission {
+        padding: 75px 6%;
+    }
+
+    .mission-heading h2 {
+        font-size: 34px;
+    }
+
+    .mission-cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+
+    /* HOW */
+
+    .how-section {
+        padding: 75px 6%;
+    }
+
+    .how-heading h2 {
+        font-size: 34px;
+    }
+
+    .how-steps {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+
+    /* WHY */
+
+    .why-redlife {
+        padding: 75px 6%;
+    }
+
+    .why-heading h2 {
+        font-size: 34px;
+    }
+
+
+    /* CTA */
+
+    .about-cta {
+        width: 88%;
+
+        margin-bottom: 75px;
+
+        padding: 38px;
+    }
+}
+
+
+/* =========================================================
+   TABLET
+   768px - 991.99px
+========================================================= */
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+
+    /* NAVBAR */
+
+    .navbar {
+        flex-wrap: wrap;
+        row-gap: 12px;
+    }
+
+    .logo-section {
+        flex-shrink: 0;
+    }
+
+    .login-btn {
+        margin-left: auto;
+        flex-shrink: 0;
+        white-space: nowrap;
+    }
+
+    .navbar nav {
+        width: 100%;
+        order: 3;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        gap: 18px;
+        flex-wrap: wrap;
+    }
+
+
+    /* HERO */
+
+    .about-hero {
+        min-height: auto;
+
+        padding: 65px 7%;
+
+        flex-direction: column;
+
+        text-align: center;
+
+        gap: 40px;
+    }
+
+    .about-hero-content {
+        max-width: 650px;
+    }
+
+    .about-hero-content h1 {
+        font-size: 48px;
+    }
+
+    .about-hero-content p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about-hero-visual {
+        width: 430px;
+        height: 350px;
+    }
+
+    .heart-circle {
+        width: 220px;
+        height: 220px;
+        font-size: 80px;
+    }
+
+
+    /* INTRO */
+
+    .about-intro {
+        width: 86%;
+
+        padding: 75px 0;
+
+        grid-template-columns: 1fr;
+
+        gap: 40px;
+    }
+
+    .intro-image {
+        height: 420px;
+    }
+
+    .intro-content h2 {
+        font-size: 35px;
+    }
+
+
+    /* MISSION */
+
+    .mission {
+        padding: 75px 7%;
+    }
+
+    .mission-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .mission-card:last-child {
+        grid-column: 1 / -1;
+        max-width: 50%;
+        width: 100%;
+        margin: auto;
+    }
+
+
+    /* HOW */
+
+    .how-section {
+        padding: 75px 7%;
+    }
+
+    .how-steps {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    /* WHY */
+
+    .why-redlife {
+        padding: 75px 7%;
+    }
+
+    .why-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+    /* CTA */
+
+    .about-cta {
+        width: 86%;
+
+        margin-bottom: 70px;
+
+        padding: 35px;
+
+        gap: 20px;
+    }
+}
+
+
+/* =========================================================
+   MOBILE LANDSCAPE
+   576px - 767.99px
+========================================================= */
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+
+    /* NAVBAR */
+
+    .navbar {
+        flex-wrap: wrap;
+        row-gap: 12px;
+    }
+
+    .logo-section {
+        flex-shrink: 0;
+    }
+
+    .login-btn {
+        margin-left: auto;
+        flex-shrink: 0;
+        white-space: nowrap;
+    }
+
+    .navbar nav {
+        width: 100%;
+        order: 3;
+
+        display: flex;
+        justify-content: center;
+
+        gap: 12px;
+
+        flex-wrap: wrap;
+    }
+
+    .navbar nav a {
+        font-size: 12px;
+    }
+
+
+    /* HERO */
+
+    .about-hero {
+        min-height: auto;
+
+        padding: 55px 7%;
+
+        flex-direction: column;
+
+        text-align: center;
+
+        gap: 35px;
+    }
+
+    .about-hero-content {
+        max-width: 100%;
+    }
+
+    .about-tag {
+        font-size: 10px;
+        padding: 8px 14px;
+    }
+
+    .about-hero-content h1 {
+        font-size: 40px;
+    }
+
+    .about-hero-content p {
+        font-size: 14px;
+    }
+
+    .about-hero-visual {
+        width: 100%;
+        height: 320px;
+    }
+
+    .heart-circle {
+        width: 190px;
+        height: 190px;
+        font-size: 70px;
+    }
+
+    .floating-card {
+        padding: 10px 13px;
+    }
+
+    .card-one {
+        right: 5%;
+    }
+
+    .card-two {
+        left: 5%;
+    }
+
+
+    /* INTRO */
+
+    .about-intro {
+        width: 86%;
+
+        padding: 65px 0;
+
+        grid-template-columns: 1fr;
+
+        gap: 35px;
+    }
+
+    .intro-image {
+        height: 350px;
+    }
+
+    .intro-content h2 {
+        font-size: 30px;
+    }
+
+    .intro-content p {
+        font-size: 13px;
+    }
+
+
+    /* MISSION */
+
+    .mission {
+        padding: 65px 7%;
+    }
+
+    .mission-heading h2 {
+        font-size: 30px;
+    }
+
+    .mission-cards {
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+    }
+
+    .mission-card {
+        padding: 25px 18px;
+    }
+
+    .mission-card:last-child {
+        grid-column: auto;
+        max-width: none;
+    }
+
+
+    /* HOW */
+
+    .how-section {
+        padding: 65px 7%;
+    }
+
+    .how-heading h2 {
+        font-size: 30px;
+    }
+
+    .how-steps {
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+    }
+
+    .how-step {
+        padding: 25px 15px;
+    }
+
+
+    /* WHY */
+
+    .why-redlife {
+        padding: 65px 7%;
+    }
+
+    .why-heading h2 {
+        font-size: 30px;
+    }
+
+    .why-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+
+    /* CTA */
+
+    .about-cta {
+        width: 86%;
+
+        margin-bottom: 60px;
+
+        padding: 30px 25px;
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: 20px;
+    }
+
+    .about-cta h2 {
+        font-size: 26px;
+    }
+
+    .about-cta a {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+
+/* =========================================================
+   MOBILE
+   0px - 575.99px
+========================================================= */
+
+@media (min-width: 0px) and (max-width: 575.99px) {
+
+    /* NAVBAR */
+
+    .navbar {
+        flex-wrap: wrap;
+        row-gap: 10px;
+    }
+
+    .logo-section {
+        flex-shrink: 0;
+    }
+
+    .login-btn {
+        margin-left: auto;
+        flex-shrink: 0;
+        white-space: nowrap;
+    }
+
+    .navbar nav {
+        width: 100%;
+        order: 3;
+
+        display: flex;
+        justify-content: center;
+
+        gap: 8px;
+
+        flex-wrap: wrap;
+    }
+
+    .navbar nav a {
+        font-size: 11px;
+    }
+
+
+    /* HERO */
+
+    .about-hero {
+        min-height: auto;
+
+        padding: 45px 6% 50px;
+
+        flex-direction: column;
+
+        text-align: center;
+
+        gap: 30px;
+    }
+
+    .about-hero-content {
+        max-width: 100%;
+    }
+
+    .about-tag {
+        font-size: 10px;
+        padding: 8px 13px;
+    }
+
+    .about-hero-content h1 {
+        margin: 17px 0 12px;
+
+        font-size: 34px;
+    }
+
+    .about-hero-content p {
+        font-size: 13px;
+        line-height: 1.6;
+    }
+
+    .about-btn {
+        padding: 12px 18px;
+        font-size: 12px;
+    }
+
+
+    /* HERO VISUAL */
+
+    .about-hero-visual {
+        width: 100%;
+        height: 260px;
+    }
+
+    .heart-circle {
+        width: 145px;
+        height: 145px;
+
+        font-size: 55px;
+    }
+
+    .floating-card {
+        padding: 9px 11px;
+
+        gap: 8px;
+    }
+
+    .floating-card i {
+        width: 32px;
+        height: 32px;
+        font-size: 12px;
+    }
+
+    .floating-card strong {
+        font-size: 11px;
+    }
+
+    .floating-card span {
+        font-size: 9px;
+    }
+
+    .card-one {
+        top: 5px;
+        right: 0;
+    }
+
+    .card-two {
+        bottom: 5px;
+        left: 0;
+    }
+
+
+    /* INTRO */
+
+    .about-intro {
+        width: 88%;
+
+        padding: 55px 0;
+
+        grid-template-columns: 1fr;
+
+        gap: 30px;
+    }
+
+    .intro-image {
+        height: 300px;
+
+        border-radius: 18px;
+    }
+
+    .intro-badge {
+        left: 12px;
+        bottom: 12px;
+
+        padding: 10px 12px;
+
+        font-size: 11px;
+    }
+
+    .intro-content h2 {
+        font-size: 27px;
+    }
+
+    .intro-content p {
+        font-size: 13px;
+        line-height: 1.6;
+    }
+
+    .intro-points {
+        gap: 10px;
+    }
+
+    .intro-points div {
+        font-size: 12px;
+    }
+
+
+    /* MISSION */
+
+    .mission {
+        padding: 55px 6%;
+    }
+
+    .mission-heading {
+        margin-bottom: 30px;
+    }
+
+    .mission-heading h2 {
+        font-size: 27px;
+    }
+
+    .mission-cards {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .mission-card {
+        padding: 25px 20px;
+    }
+
+    .mission-card p {
+        font-size: 12px;
+    }
+
+
+    /* HOW IT WORKS */
+
+    .how-section {
+        padding: 55px 6%;
+    }
+
+    .how-heading {
+        margin-bottom: 30px;
+    }
+
+    .how-heading h2 {
+        font-size: 27px;
+    }
+
+    .how-steps {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .how-step {
+        padding: 25px 20px;
+    }
+
+    .how-step p {
+        font-size: 12px;
+    }
+
+
+    /* WHY REDLIFE */
+
+    .why-redlife {
+        padding: 55px 6%;
+    }
+
+    .why-heading {
+        margin-bottom: 30px;
+    }
+
+    .why-heading h2 {
+        font-size: 27px;
+    }
+
+    .why-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .why-card {
+        padding: 20px;
+    }
+
+
+    /* CTA */
+
+    .about-cta {
+        width: 88%;
+
+        margin-bottom: 45px;
+
+        padding: 25px 20px;
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: 18px;
+
+        border-radius: 18px;
+    }
+
+    .about-cta h2 {
+        font-size: 23px;
+    }
+
+    .about-cta p {
+        font-size: 12px;
+        line-height: 1.6;
+    }
+
+    .about-cta a {
+        width: 100%;
+
+        justify-content: center;
+
+        padding: 12px 18px;
+    }
+}

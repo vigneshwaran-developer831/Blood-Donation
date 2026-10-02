@@ -1,0 +1,1398 @@
+.blood-bank-page {
+    background: #f8fafc;
+}
+
+
+/* =========================================
+   HERO
+========================================= */
+
+.bank-hero {
+    min-height: 420px;
+
+    padding: 70px 7%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: #fff1f2;
+}
+
+.bank-hero-content {
+    max-width: 650px;
+}
+
+.bank-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    padding: 9px 18px;
+
+    background: #ffe4e6;
+
+    color: #e51b23;
+
+    border-radius: 30px;
+
+    font-size: 12px;
+    font-weight: 700;
+
+    letter-spacing: 1px;
+}
+
+.bank-hero h1 {
+    margin: 20px 0 15px;
+
+    color: #111827;
+
+    font-size: 55px;
+
+    line-height: 1.1;
+}
+
+.bank-hero h1 span {
+    display: block;
+
+    color: #e51b23;
+}
+
+.bank-hero p {
+    max-width: 550px;
+
+    color: #667085;
+
+    font-size: 16px;
+
+    line-height: 1.7;
+}
+
+.bank-hero-icon {
+    width: 250px;
+    height: 250px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-right: 7%;
+
+    background: #e51b23;
+
+    color: #ffffff;
+
+    border-radius: 50%;
+
+    font-size: 90px;
+
+    box-shadow: 0 25px 60px rgba(229, 27, 35, 0.20);
+
+     /* transform-origin: bottom center; */
+
+    animation: rotate 2s ease-in-out infinite alternate;
+}
+@keyframes rotate {
+    from {
+        transform: rotate(-45deg);
+    }
+
+    to {
+        transform: rotate(45deg);
+    }
+}
+
+/* =========================================
+   SEARCH SECTION
+========================================= */
+
+.bank-search {
+    max-width: 1200px;
+
+    margin: -50px auto 0;
+
+    position: relative;
+    z-index: 2;
+}
+
+.search-heading {
+    padding: 30px;
+
+    background: #ffffff;
+
+    border-radius: 20px 20px 0 0;
+
+    border: 3px solid #e5e7eb;
+}
+
+.search-heading span {
+    color: #e51b23;
+
+    font-size: 12px;
+
+    font-weight: 700;
+
+    letter-spacing: 1px;
+
+    border: 3px solid #e5e7eb ;
+}
+
+.search-heading h2 {
+    margin: 8px 0;
+
+    color: #111827;
+
+    font-size: 28px;
+}
+
+.search-heading p {
+    margin: 0;
+
+    color: #667085;
+
+    font-size: 14px;
+}
+
+
+.search-box {
+    padding: 25px;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr auto;
+
+    gap: 15px;
+
+    background: #ffffff;
+
+    border: 1px solid #e5e7eb;
+
+    border-top: none;
+
+    border-radius: 0 0 20px 20px;
+
+    box-shadow: 0 15px 40px rgba(17, 24, 39, 0.10);
+}
+
+.search-field label {
+    display: block;
+
+    margin-bottom: 7px;
+
+    color: #111827;
+
+    font-size: 12px;
+
+    font-weight: 600;
+}
+
+.search-field > div {
+    height: 48px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    padding: 0 13px;
+
+    background: #f8fafc;
+
+    border: 1px solid #e5e7eb;
+
+    border-radius: 9px;
+}
+
+.search-field i {
+    color: #e51b23;
+}
+
+.search-field select {
+    width: 100%;
+
+    height: 100%;
+
+    border: none;
+
+    outline: none;
+
+    background: transparent;
+
+    color: #111827;
+}
+
+
+.search-bank-btn {
+    align-self: end;
+
+    height: 48px;
+
+    padding: 0 25px;
+
+    border: none;
+
+    border-radius: 9px;
+
+    background: #e51b23;
+
+    color: #ffffff;
+
+    font-size: 14px;
+
+    font-weight: 700;
+
+    cursor: pointer;
+
+    transition: 0.3s ease;
+}
+
+.search-bank-btn:hover {
+    background: #b90f18;
+
+    transform: translateY(-2px);
+}
+
+
+/* =========================================
+   BLOOD GROUPS
+========================================= */
+
+.blood-groups {
+    padding: 90px 7% 50px;
+
+    text-align: center;
+}
+
+.group-heading h2 {
+    margin: 0 0 8px;
+
+    color: #111827;
+
+    font-size: 30px;
+}
+
+.group-heading p {
+    color: #667085;
+
+    font-size: 14px;
+}
+
+.group-list {
+    margin-top: 30px;
+
+    display: flex;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 12px;
+}
+
+.group-list button {
+    width: 65px;
+    height: 50px;
+
+    border: 1px solid #ffe4e6;
+
+    border-radius: 10px;
+
+    background: #ffffff;
+
+    color: #e51b23;
+
+    font-size: 15px;
+
+    font-weight: 700;
+
+    cursor: pointer;
+
+    transition: 0.3s ease;
+}
+
+.group-list button:hover {
+    background: #e51b23;
+
+    color: #ffffff;
+
+    transform: translateY(-3px);
+}
+
+
+/* =========================================
+   BANK LIST
+========================================= */
+
+.bank-list {
+    padding: 50px 7% 90px;
+
+    max-width: 1400px;
+
+    margin: auto;
+}
+
+.list-heading {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    margin-bottom: 30px;
+}
+
+.list-heading span {
+    color: #e51b23;
+
+    font-size: 12px;
+
+    font-weight: 700;
+
+    letter-spacing: 1px;
+}
+
+.list-heading h2 {
+    margin: 8px 0 0;
+
+    color: #111827;
+
+    font-size: 30px;
+}
+
+.bank-count {
+    padding: 10px 15px;
+
+    border-radius: 30px;
+
+    background: #fff1f2;
+
+    color: #e51b23;
+
+    font-size: 13px;
+
+    font-weight: 600;
+}
+
+.bank-cards {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 22px;
+}
+
+.bank-card {
+    padding: 25px;
+
+    background: #ffffff;
+
+    border: 1px solid #e5e7eb;
+
+    border-radius: 18px;
+
+    transition: 0.3s ease;
+}
+
+.bank-card:hover {
+    transform: translateY(-7px);
+
+    border-color: #e51b23;
+
+    box-shadow: 0 15px 40px rgba(17, 24, 39, 0.10);
+}
+
+.bank-card-top {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+}
+
+.bank-icon {
+    width: 55px;
+    height: 55px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background: #fff1f2;
+
+    color: #e51b23;
+
+    border-radius: 14px;
+
+    font-size: 21px;
+}
+
+.available {
+    display: flex;
+
+    align-items: center;
+
+    gap: 6px;
+
+    color: #16803c;
+
+    font-size: 11px;
+
+    font-weight: 700;
+}
+
+.available i {
+    font-size: 7px;
+}
+
+.bank-card h3 {
+    margin: 20px 0 8px;
+
+    color: #111827;
+
+    font-size: 18px;
+}
+
+.bank-location {
+    margin: 0;
+
+    color: #667085;
+
+    font-size: 13px;
+}
+
+.bank-location i {
+    color: #e51b23;
+
+    margin-right: 5px;
+}
+
+.bank-blood {
+    margin-top: 22px;
+
+    padding-top: 18px;
+
+    border-top: 1px solid #e5e7eb;
+}
+
+.bank-blood > span {
+    color: #667085;
+
+    font-size: 11px;
+}
+
+.blood-tags {
+    display: flex;
+
+    gap: 7px;
+
+    margin-top: 10px;
+}
+
+.blood-tags b {
+    min-width: 38px;
+
+    padding: 7px 8px;
+
+    text-align: center;
+
+    border-radius: 7px;
+
+    background: #fff1f2;
+
+    color: #e51b23;
+
+    font-size: 11px;
+}
+
+.bank-contact {
+    margin-top: 20px;
+
+    padding-top: 17px;
+
+    border-top: 1px solid #e5e7eb;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 10px;
+}
+
+.bank-contact span {
+    color: #667085;
+
+    font-size: 11px;
+}
+
+.bank-contact span i {
+    color: #e51b23;
+}
+
+.bank-contact a {
+    color: #e51b23;
+
+    text-decoration: none;
+
+    font-size: 12px;
+
+    font-weight: 700;
+}
+
+
+/* =========================================
+   EMERGENCY
+========================================= */
+
+.bank-emergency {
+    max-width: 1200px;
+
+    margin: 0 auto 90px;
+
+    padding: 35px 40px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 25px;
+
+    background: #111827;
+
+    color: #ffffff;
+
+    border-radius: 20px;
+}
+
+.emergency-icon {
+    min-width: 65px;
+    height: 65px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background: #e51b23;
+
+    border-radius: 15px;
+
+    font-size: 25px;
+}
+
+.bank-emergency span {
+    color: #ff7a80;
+
+    font-size: 11px;
+
+    font-weight: 700;
+
+    letter-spacing: 1px;
+}
+
+.bank-emergency h2 {
+    margin: 5px 0;
+
+    font-size: 24px;
+}
+
+.bank-emergency p {
+    margin: 0;
+
+    color: #cbd5e1;
+
+    font-size: 13px;
+}
+
+.bank-emergency > a {
+    margin-left: auto;
+
+    padding: 13px 20px;
+
+    background: #e51b23;
+
+    color: #ffffff;
+
+    border-radius: 8px;
+
+    text-decoration: none;
+
+    font-size: 12px;
+
+    font-weight: 700;
+
+    white-space: nowrap;
+}
+
+
+
+
+
+/* =========================================================
+   EXTRA LARGE DESKTOP
+   1400px and above
+========================================================= */
+
+@media (min-width: 1400px) {
+
+    .bank-hero {
+        padding: 90px 8%;
+    }
+
+    .bank-hero h1 {
+        font-size: 60px;
+    }
+
+    .bank-hero-icon {
+        width: 280px;
+        height: 280px;
+        font-size: 100px;
+        margin-right: 5%;
+    }
+
+    .bank-search {
+        max-width: 1250px;
+    }
+
+    .bank-cards {
+        gap: 25px;
+    }
+
+    .bank-card {
+        padding: 28px;
+    }
+
+    .bank-emergency {
+        max-width: 1250px;
+    }
+}
+
+
+/* =========================================================
+   LARGE DESKTOP
+   1200px - 1399.99px
+========================================================= */
+
+@media (min-width: 1200px) and (max-width: 1399.99px) {
+
+    .bank-hero {
+        padding: 75px 7%;
+    }
+
+    .bank-hero h1 {
+        font-size: 55px;
+    }
+
+    .bank-hero-icon {
+        width: 250px;
+        height: 250px;
+        font-size: 90px;
+        margin-right: 4%;
+    }
+
+    .bank-search {
+        width: 90%;
+    }
+
+    .bank-cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .bank-emergency {
+        width: 86%;
+    }
+}
+
+
+/* =========================================================
+   LAPTOP
+   992px - 1199.99px
+========================================================= */
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+
+    /* NAVBAR */
+
+    .navbar {
+        flex-wrap: nowrap;
+    }
+
+    .logo-section {
+        flex-shrink: 0;
+    }
+
+    .navbar nav {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        flex-wrap: nowrap;
+    }
+
+    .navbar nav a {
+        font-size: 13px;
+    }
+
+    .login-btn {
+        flex-shrink: 0;
+        white-space: nowrap;
+    }
+
+
+    /* HERO */
+
+    .bank-hero {
+        min-height: 400px;
+        padding: 65px 6%;
+    }
+
+    .bank-hero-content {
+        max-width: 570px;
+    }
+
+    .bank-hero h1 {
+        font-size: 50px;
+    }
+
+    .bank-hero-icon {
+        width: 220px;
+        height: 220px;
+        margin-right: 2%;
+        font-size: 80px;
+    }
+
+
+    /* SEARCH */
+
+    .bank-search {
+        width: 90%;
+    }
+
+    .search-box {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .search-bank-btn {
+        width: 100%;
+    }
+
+
+    /* BLOOD GROUP */
+
+    .blood-groups {
+        padding: 75px 6% 40px;
+    }
+
+
+    /* BANK LIST */
+
+    .bank-list {
+        padding: 45px 6% 75px;
+    }
+
+    .bank-cards {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 18px;
+    }
+
+    .bank-card {
+        padding: 20px;
+    }
+
+    .blood-tags {
+        flex-wrap: wrap;
+    }
+
+
+    /* EMERGENCY */
+
+    .bank-emergency {
+        width: 88%;
+        padding: 30px;
+        margin-bottom: 75px;
+    }
+}
+
+
+/* =========================================================
+   TABLET
+   768px - 991.99px
+========================================================= */
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+
+    /* NAVBAR */
+
+    .navbar {
+        flex-wrap: wrap;
+        row-gap: 12px;
+    }
+
+    .logo-section {
+        flex-shrink: 0;
+    }
+
+    .login-btn {
+        margin-left: auto;
+        flex-shrink: 0;
+        white-space: nowrap;
+    }
+
+    .navbar nav {
+        width: 100%;
+        order: 3;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        gap: 18px;
+        flex-wrap: wrap;
+    }
+
+
+    /* HERO */
+
+    .bank-hero {
+        min-height: 380px;
+
+        padding: 60px 6%;
+
+        gap: 30px;
+    }
+
+    .bank-hero-content {
+        max-width: 500px;
+    }
+
+    .bank-hero h1 {
+        font-size: 45px;
+    }
+
+    .bank-hero p {
+        font-size: 15px;
+    }
+
+    .bank-hero-icon {
+        width: 190px;
+        height: 190px;
+
+        margin-right: 0;
+
+        font-size: 70px;
+    }
+
+
+    /* SEARCH */
+
+    .bank-search {
+        width: 90%;
+    }
+
+    .search-heading {
+        padding: 25px;
+    }
+
+    .search-box {
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+    }
+
+    .search-bank-btn {
+        width: 100%;
+    }
+
+
+    /* BLOOD GROUP */
+
+    .blood-groups {
+        padding: 70px 6% 40px;
+    }
+
+    .group-heading h2 {
+        font-size: 27px;
+    }
+
+    .group-list {
+        gap: 10px;
+    }
+
+
+    /* BANK LIST */
+
+    .bank-list {
+        padding: 45px 6% 70px;
+    }
+
+    .list-heading {
+        margin-bottom: 25px;
+    }
+
+    .bank-cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 18px;
+    }
+
+    .bank-card {
+        padding: 20px;
+    }
+
+    .blood-tags {
+        flex-wrap: wrap;
+    }
+
+    .bank-contact {
+        flex-wrap: wrap;
+    }
+
+
+    /* EMERGENCY */
+
+    .bank-emergency {
+        width: 86%;
+
+        padding: 30px;
+
+        margin-bottom: 70px;
+
+        flex-wrap: wrap;
+    }
+
+    .bank-emergency > a {
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+/* =========================================================
+   MOBILE LANDSCAPE
+   576px - 767.99px
+========================================================= */
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+
+    /* NAVBAR */
+
+    .navbar {
+        flex-wrap: wrap;
+        row-gap: 12px;
+    }
+
+    .logo-section {
+        flex-shrink: 0;
+    }
+
+    .login-btn {
+        margin-left: auto;
+        flex-shrink: 0;
+        white-space: nowrap;
+    }
+
+    .navbar nav {
+        width: 100%;
+        order: 3;
+
+        display: flex;
+        justify-content: center;
+
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+
+    .navbar nav a {
+        font-size: 12px;
+    }
+
+
+    /* HERO */
+
+    .bank-hero {
+        min-height: auto;
+
+        padding: 55px 7%;
+
+        flex-direction: column;
+        text-align: center;
+
+        gap: 35px;
+    }
+
+    .bank-hero-content {
+        max-width: 100%;
+    }
+
+    .bank-hero h1 {
+        font-size: 42px;
+    }
+
+    .bank-hero p {
+        font-size: 14px;
+    }
+
+    .bank-hero-icon {
+        width: 170px;
+        height: 170px;
+
+        margin-right: 0;
+
+        font-size: 65px;
+    }
+
+
+    /* SEARCH */
+
+    .bank-search {
+        width: 90%;
+        margin-top: -30px;
+    }
+
+    .search-heading {
+        padding: 22px;
+    }
+
+    .search-heading h2 {
+        font-size: 24px;
+    }
+
+    .search-box {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    .search-bank-btn {
+        width: 100%;
+    }
+
+
+    /* BLOOD GROUP */
+
+    .blood-groups {
+        padding: 60px 7% 35px;
+    }
+
+    .group-heading h2 {
+        font-size: 25px;
+    }
+
+    .group-list {
+        gap: 10px;
+    }
+
+
+    /* BANK LIST */
+
+    .bank-list {
+        padding: 40px 7% 60px;
+    }
+
+    .list-heading {
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .list-heading h2 {
+        font-size: 25px;
+    }
+
+    .bank-count {
+        white-space: nowrap;
+    }
+
+    .bank-cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .bank-card {
+        padding: 18px;
+    }
+
+    .bank-card h3 {
+        font-size: 16px;
+    }
+
+    .blood-tags {
+        flex-wrap: wrap;
+    }
+
+    .bank-contact {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .bank-contact a {
+        margin-top: 5px;
+    }
+
+
+    /* EMERGENCY */
+
+    .bank-emergency {
+        width: 86%;
+
+        margin-bottom: 60px;
+
+        padding: 25px;
+
+        flex-direction: column;
+
+        align-items: flex-start;
+    }
+
+    .bank-emergency > a {
+        width: 100%;
+
+        margin-left: 0;
+
+        text-align: center;
+    }
+}
+
+
+/* =========================================================
+   MOBILE
+   0px - 575.99px
+========================================================= */
+
+@media  (max-width: 575.99px) {
+
+    /* NAVBAR */
+
+    .navbar {
+        flex-wrap: wrap;
+        row-gap: 12px;
+    }
+
+    .logo-section {
+        flex-shrink: 0;
+    }
+
+    .login-btn {
+        margin-left: auto;
+        flex-shrink: 0;
+        white-space: nowrap;
+    }
+
+    .navbar nav {
+        width: 100%;
+        order: 3;
+
+        display: flex;
+        justify-content: center;
+
+        gap: 8px;
+
+        flex-wrap: wrap;
+    }
+
+    .navbar nav a {
+        font-size: 11px;
+    }
+
+
+    /* HERO */
+
+    .bank-hero {
+        min-height: auto;
+
+        padding: 45px 6% 50px;
+
+        flex-direction: column;
+
+        text-align: center;
+
+        gap: 30px;
+    }
+
+    .bank-hero-content {
+        max-width: 100%;
+    }
+
+    .bank-tag {
+        font-size: 10px;
+        padding: 8px 14px;
+    }
+
+    .bank-hero h1 {
+        margin: 17px 0 12px;
+        font-size: 35px;
+    }
+
+    .bank-hero p {
+        font-size: 13px;
+        line-height: 1.6;
+    }
+
+    .bank-hero-icon {
+        width: 140px;
+        height: 140px;
+
+        margin-right: 0;
+
+        font-size: 55px;
+    }
+
+
+    /* SEARCH */
+
+    .bank-search {
+        width: 92%;
+
+        margin-top: -25px;
+    }
+
+    .search-heading {
+        padding: 20px;
+    }
+
+    .search-heading h2 {
+        font-size: 22px;
+    }
+
+    .search-heading p {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
+    .search-box {
+        grid-template-columns: 1fr;
+
+        padding: 18px;
+
+        gap: 13px;
+    }
+
+    .search-field > div {
+        height: 45px;
+    }
+
+    .search-bank-btn {
+        width: 100%;
+        height: 46px;
+    }
+
+
+    /* BLOOD GROUP */
+
+    .blood-groups {
+        padding: 55px 6% 30px;
+    }
+
+    .group-heading h2 {
+        font-size: 23px;
+    }
+
+    .group-heading p {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
+    .group-list {
+        gap: 8px;
+    }
+
+    .group-list button {
+        width: 58px;
+        height: 45px;
+        font-size: 13px;
+    }
+
+
+    /* BANK LIST */
+
+    .bank-list {
+        padding: 35px 6% 55px;
+    }
+
+    .list-heading {
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: 12px;
+    }
+
+    .list-heading h2 {
+        font-size: 23px;
+    }
+
+    .bank-count {
+        font-size: 12px;
+    }
+
+    .bank-cards {
+        grid-template-columns: 1fr;
+
+        gap: 15px;
+    }
+
+    .bank-card {
+        padding: 20px;
+    }
+
+    .bank-card h3 {
+        font-size: 17px;
+    }
+
+    .blood-tags {
+        flex-wrap: wrap;
+    }
+
+    .bank-contact {
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: 10px;
+    }
+
+
+    /* EMERGENCY */
+
+    .bank-emergency {
+        width: 86%;
+
+        margin-bottom: 45px;
+
+        padding: 25px 20px;
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: 18px;
+    }
+
+    .emergency-icon {
+        width: 55px;
+        min-width: 55px;
+        height: 55px;
+
+        font-size: 21px;
+    }
+
+    .bank-emergency h2 {
+        font-size: 21px;
+    }
+
+    .bank-emergency p {
+        font-size: 12px;
+        line-height: 1.6;
+    }
+
+    .bank-emergency > a {
+        width: 100%;
+
+        margin-left: 0;
+
+        text-align: center;
+
+        padding: 12px 15px;
+    }
+}

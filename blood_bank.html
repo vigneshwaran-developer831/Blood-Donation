@@ -1,0 +1,631 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>RedLife - Blood Banks</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./blood_bank.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="navbar">
+
+        <div class="logo-section">
+
+            <div class="logo-icon">
+                <img src="./images/Screenshot 2026-09-05 184846.png"
+                    alt="RedLife Logo">
+            </div>
+
+            <div class="text-content">
+                <h1>RedLife</h1>
+                <p>Together we save lives</p>
+            </div>
+
+        </div>
+
+        <nav>
+            
+            <a href="index.html" class="active">
+                <i class="fa-solid fa-house"></i>
+                Home
+            </a>
+
+            <a href="donate.html">
+                <i class="fa-solid fa-droplet"></i>
+                Donate
+            </a>
+
+            <a href="blood_bank.html">
+                <i class="fa-solid fa-building"></i>
+                Blood Banks
+            </a>
+
+            <a href="emerency.html">
+                <i class="fa-solid fa-truck-medical"></i>
+                Emergency
+            </a>
+
+            <a href="about.html">
+                <i class="fa-solid fa-circle-info"></i>
+                About
+            </a>
+        </nav>
+
+        <a href="login.html" class="login-btn">
+            <i class="fa-solid fa-user"></i>
+            LOGIN
+        </a>
+
+    </header>
+
+
+    <!-- ================= BLOOD BANK CORE ================= -->
+
+    <main class="blood-bank-page">
+
+        <!-- HERO -->
+
+        <section class="bank-hero">
+
+            <div class="bank-hero-content">
+
+                <span class="bank-tag">
+                    <i class="fa-solid fa-building-columns"></i>
+                    BLOOD BANKS
+                </span>
+
+                <h1>
+                    Find Blood
+                    <span>Near You</span>
+                </h1>
+
+                <p>
+                    Search nearby blood banks and find the blood
+                    group you need quickly and easily.
+                </p>
+
+            </div>
+
+            <div class="bank-hero-icon">
+                <i class="fa-solid fa-hospital"></i>
+            </div>
+
+        </section>
+
+
+        <!-- SEARCH -->
+
+        <section class="bank-search">
+
+            <div class="search-heading">
+
+                <span>SEARCH BLOOD BANKS</span>
+
+                <h2>
+                    Find A Blood Bank
+                </h2>
+
+                <p>
+                    Select your location and blood group to
+                    find available blood banks.
+                </p>
+
+            </div>
+
+
+            <div class="search-box">
+
+                <div class="search-field">
+
+                    <label>State</label>
+
+                    <div>
+                        <i class="fa-solid fa-map"></i>
+
+                        <select>
+                            <option>Select State</option>
+                            <option>Tamil Nadu</option>
+                            <option>Kerala</option>
+                            <option>Karnataka</option>
+                            <option>Andhra Pradesh</option>
+                        </select>
+                    </div>
+
+                </div>
+
+
+                <div class="search-field">
+
+                    <label>District</label>
+
+                    <div>
+                        <i class="fa-solid fa-location-dot"></i>
+
+                        <select>
+                            <option>Select District</option>
+                            <option>Chennai</option>
+                            <option>Coimbatore</option>
+                            <option>Salem</option>
+                            <option>Madurai</option>
+                        </select>
+                    </div>
+
+                </div>
+
+
+                <div class="search-field">
+
+                    <label>Blood Group</label>
+
+                    <div>
+                        <i class="fa-solid fa-droplet"></i>
+
+                        <select>
+                            <option>Select Group</option>
+                            <option>A+</option>
+                            <option>A-</option>
+                            <option>B+</option>
+                            <option>B-</option>
+                            <option>AB+</option>
+                            <option>AB-</option>
+                            <option>O+</option>
+                            <option>O-</option>
+                        </select>
+                    </div>
+
+                </div>
+
+
+                <button class="search-bank-btn">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    Search
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- BLOOD GROUP QUICK FILTER -->
+
+        <section class="blood-groups">
+
+            <div class="group-heading">
+
+                <h2>Search By Blood Group</h2>
+
+                <p>
+                    Quickly select a blood group to find
+                    matching blood banks.
+                </p>
+
+            </div>
+
+
+            <div class="group-list">
+
+                <button>A+</button>
+                <button>A-</button>
+                <button>B+</button>
+                <button>B-</button>
+                <button>AB+</button>
+                <button>AB-</button>
+                <button>O+</button>
+                <button>O-</button>
+
+            </div>
+
+        </section>
+
+
+        <!-- BLOOD BANK LIST -->
+
+        <section class="bank-list">
+
+            <div class="list-heading">
+
+                <div>
+                    <span>AVAILABLE BANKS</span>
+
+                    <h2>
+                        Nearby Blood Banks
+                    </h2>
+                </div>
+
+                <div class="bank-count">
+                    <i class="fa-solid fa-building"></i>
+                    3 Banks
+                </div>
+
+            </div>
+
+
+            <div class="bank-cards">
+
+
+                <!-- BANK 1 -->
+
+                <div class="bank-card">
+
+                    <div class="bank-card-top">
+
+                        <div class="bank-icon">
+                            <i class="fa-solid fa-hospital"></i>
+                        </div>
+
+                        <span class="available">
+                            <i class="fa-solid fa-circle"></i>
+                            Available
+                        </span>
+
+                    </div>
+
+
+                    <h3>RedLife Blood Bank</h3>
+
+                    <p class="bank-location">
+                        <i class="fa-solid fa-location-dot"></i>
+                        Chennai, Tamil Nadu
+                    </p>
+
+
+                    <div class="bank-blood">
+
+                        <span>Available Blood</span>
+
+                        <div class="blood-tags">
+
+                            <b>O+</b>
+                            <b>A+</b>
+                            <b>B+</b>
+                            <b>AB+</b>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="bank-contact">
+
+                        <span>
+                            <i class="fa-solid fa-phone"></i>
+                            +91 98765 43210
+                        </span>
+
+                        <a href="#">
+                            View Details
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- BANK 2 -->
+
+                <div class="bank-card">
+
+                    <div class="bank-card-top">
+
+                        <div class="bank-icon">
+                            <i class="fa-solid fa-building-columns"></i>
+                        </div>
+
+                        <span class="available">
+                            <i class="fa-solid fa-circle"></i>
+                            Available
+                        </span>
+
+                    </div>
+
+
+                    <h3>City Blood Centre</h3>
+
+                    <p class="bank-location">
+                        <i class="fa-solid fa-location-dot"></i>
+                        Coimbatore, Tamil Nadu
+                    </p>
+
+
+                    <div class="bank-blood">
+
+                        <span>Available Blood</span>
+
+                        <div class="blood-tags">
+
+                            <b>A+</b>
+                            <b>B-</b>
+                            <b>O+</b>
+                            <b>O-</b>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="bank-contact">
+
+                        <span>
+                            <i class="fa-solid fa-phone"></i>
+                            +91 91234 56789
+                        </span>
+
+                        <a href="#">
+                            View Details
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- BANK 3 -->
+
+                <div class="bank-card">
+
+                    <div class="bank-card-top">
+
+                        <div class="bank-icon">
+                            <i class="fa-solid fa-house-medical"></i>
+                        </div>
+
+                        <span class="available">
+                            <i class="fa-solid fa-circle"></i>
+                            Available
+                        </span>
+
+                    </div>
+
+
+                    <h3>Life Care Blood Bank</h3>
+
+                    <p class="bank-location">
+                        <i class="fa-solid fa-location-dot"></i>
+                        Salem, Tamil Nadu
+                    </p>
+
+
+                    <div class="bank-blood">
+
+                        <span>Available Blood</span>
+
+                        <div class="blood-tags">
+
+                            <b>A-</b>
+                            <b>B+</b>
+                            <b>AB-</b>
+                            <b>O+</b>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="bank-contact">
+
+                        <span>
+                            <i class="fa-solid fa-phone"></i>
+                            +91 90123 45678
+                        </span>
+
+                        <a href="#">
+                            View Details
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- EMERGENCY -->
+
+        <section class="bank-emergency">
+
+            <div class="emergency-icon">
+                <i class="fa-solid fa-truck-medical"></i>
+            </div>
+
+            <div>
+
+                <span>EMERGENCY BLOOD REQUIREMENT?</span>
+
+                <h2>
+                    Need Blood Urgently?
+                </h2>
+
+                <p>
+                    Contact a nearby blood bank or register
+                    as a donor to help someone in need.
+                </p>
+
+            </div>
+
+            <a href="donate.html">
+                Become A Donor
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </section>
+
+    </main>
+
+
+   
+        <!-- ================= FOOTER ================= -->
+
+        <footer class="footer">
+
+
+            <div class="footer-main">
+
+
+                <div class="footer-brand">
+
+
+                    <div class="footer-logo">
+
+                        <img src="./images/Screenshot 2026-09-05 184846.png"
+                            alt="RedLife Logo">
+
+
+                        <div>
+
+                            <h2>RedLife</h2>
+
+                            <p>Together we save lives</p>
+
+                        </div>
+
+                    </div>
+
+
+                    <p>
+                        Connecting blood donors with those in urgent need.
+                    </p>
+
+                    <p>
+                        Every drop counts — your donation can be someone's
+                        second chance at life.
+                    </p>
+
+                </div>
+
+
+
+                <div class="footer-column">
+
+                    <h3>QUICK LINKS</h3>
+
+                    <a href="#">Search Blood</a>
+                    <a href="#">Search Blood Center</a>
+                    <a href="#">Blood Donation Camp</a>
+                    <a href="login.html">Donor Login</a>
+
+                </div>
+
+
+
+                <div class="footer-column">
+
+                    <h3>FOR DONORS</h3>
+
+                    <a href="#">Why Donate Blood</a>
+                    <a href="#">Eligibility Criteria</a>
+                    <a href="#">Donation Process</a>
+                    <a href="#">FAQs</a>
+
+                </div>
+
+
+
+                <div class="footer-column">
+
+                    <h3>POLICIES</h3>
+
+                    <a href="#">Terms & Condition</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Accessibility Statement</a>
+
+                </div>
+
+
+
+                <div class="footer-column contact-us">
+
+                    <h3>CONTACT US</h3>
+
+
+                    <div class="contact-item">
+
+                        <i class="fa-solid fa-location-dot"></i>
+
+                        <p>
+                            RedLife Trust, Chennai<br>
+                            Tamil Nadu
+                        </p>
+
+                    </div>
+
+
+                    <div class="contact-item">
+
+                        <i class="fa-solid fa-phone"></i>
+
+                        <p>+91 XXXXX XXXXX</p>
+
+                    </div>
+
+
+                    <div class="contact-item">
+
+                        <i class="fa-solid fa-envelope"></i>
+
+                        <p>support@redlife.org</p>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+
+            <div class="footer-bottom">
+
+
+                <div class="follow-us">
+
+                    <span>FOLLOW US</span>
+
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+
+                </div>
+
+
+                <p>
+                    Designed by @Vigneshwaran P
+                </p>
+
+
+            </div>
+
+
+        </footer>
+</body>
+
+</html>
+

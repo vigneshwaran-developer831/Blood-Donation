@@ -1,0 +1,1865 @@
+
+.donate-hero {
+    min-height: 650px;
+    padding: 90px 7%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 70px;
+
+    background: #fff1f2;
+    /* background-image: linear-gradient(-30deg, rgb(236, 199, 205),rgb(253, 251, 251),rgb(104, 86, 104)); */
+}
+
+.donate-hero-content {
+    max-width: 560px;
+}
+
+.donate-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    padding: 9px 17px;
+
+    background: #ffe4e6;
+    color: #e51b23;
+
+    border-radius: 30px;
+
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.donate-hero-content h1 {
+    margin: 22px 0 15px;
+
+    font-size: 55px;
+    line-height: 1.12;
+
+    color: #111827;
+}
+
+.donate-hero-content h1 span {
+    display: block;
+    color: #e51b23;
+}
+
+.donate-hero-content p {
+    color: #667085;
+
+    font-size: 17px;
+    line-height: 1.7;
+
+    margin-bottom: 30px;
+}
+
+.donate-main-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 15px 25px;
+
+    background: #e51b23;
+    color: #ffffff;
+
+    border-radius: 10px;
+
+    text-decoration: none;
+
+    font-size: 15px;
+    font-weight: 700;
+
+    transition: 0.3s ease;
+}
+
+.donate-main-btn:hover {
+    background: #b90f18;
+    transform: translateY(-3px);
+}
+
+
+/* =========================================
+   HERO IMAGE
+========================================= */
+
+.donate-hero-image {
+    position: relative;
+
+    width: 500px;
+    height: 470px;
+
+    border-radius: 30px;
+
+    overflow: hidden;
+
+    box-shadow: 0 25px 60px rgba(17, 24, 39, 0.15);
+}
+
+.donate-hero-image img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+.save-card {
+    position: absolute;
+
+    left: 25px;
+    bottom: 25px;
+
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    padding: 15px 20px;
+
+    background: rgba(255, 255, 255, 0.95);
+
+    border-radius: 15px;
+}
+
+.save-card i {
+    width: 45px;
+    height: 45px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: #fff1f2;
+    color: #e51b23;
+
+    font-size: 20px;
+}
+
+.save-card strong {
+    display: block;
+    color: #111827;
+}
+
+.save-card p {
+    margin: 4px 0 0;
+
+    color: #667085;
+    font-size: 12px;
+}
+
+
+/* =========================================
+   WHY DONATE
+========================================= */
+
+.why-donate {
+    padding: 90px 7%;
+
+    background: #ffffff;
+}
+
+.section-title {
+    max-width: 650px;
+
+    margin: 0 auto 50px;
+
+    text-align: center;
+}
+
+.section-title span {
+    color: #e51b23;
+
+    font-size: 13px;
+    font-weight: 700;
+
+    letter-spacing: 1.5px;
+}
+
+.section-title h2 {
+    margin: 12px 0;
+
+    color: #111827;
+
+    font-size: 40px;
+}
+
+.section-title h2 strong {
+    color: #e51b23;
+}
+
+.section-title p {
+    color: #667085;
+
+    line-height: 1.6;
+}
+
+
+.benefit-container {
+    max-width: 1150px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 25px;
+}
+
+.benefit-card {
+    padding: 35px 28px;
+
+    text-align: center;
+
+    border: 1px solid #e5e7eb;
+
+    border-radius: 20px;
+
+    transition: 0.3s ease;
+}
+
+.benefit-card:hover {
+    transform: translateY(-8px);
+
+    border-color: #e51b23;
+
+    box-shadow: 0 15px 40px rgba(17, 24, 39, 0.10);
+}
+
+.benefit-icon {
+    width: 65px;
+    height: 65px;
+
+    margin: 0 auto 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #fff1f2;
+
+    color: #e51b23;
+
+    border-radius: 18px;
+
+    font-size: 25px;
+}
+
+.benefit-card h3 {
+    color: #111827;
+
+    margin-bottom: 10px;
+}
+
+.benefit-card p {
+    color: #667085;
+
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+
+/* =========================================
+   ELIGIBILITY
+========================================= */
+
+.eligibility {
+    padding: 90px 7%;
+
+    display: flex;
+    align-items: center;
+
+    gap: 80px;
+
+    background: #f8fafc;
+}
+
+.eligibility-content {
+    flex: 1;
+}
+
+.section-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    color: #e51b23;
+
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.eligibility-content h2 {
+    margin: 15px 0;
+
+    color: #111827;
+
+    font-size: 40px;
+}
+
+.eligibility-content h2 span {
+    color: #e51b23;
+}
+
+.eligibility-content > p {
+    color: #667085;
+
+    line-height: 1.6;
+
+    margin-bottom: 25px;
+}
+
+.eligibility-list {
+    display: grid;
+
+    gap: 12px;
+}
+
+.eligibility-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    color: #111827;
+
+    font-size: 14px;
+}
+
+.eligibility-item i {
+    width: 25px;
+    height: 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #fff1f2;
+
+    color: #e51b23;
+
+    border-radius: 50%;
+
+    font-size: 12px;
+}
+
+.eligibility-image {
+    width: 350px;
+    height: 350px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    background: #e51b23;
+
+    border-radius: 50%;
+
+    color: #ffffff;
+
+    text-align: center;
+
+    box-shadow: 0 25px 60px rgba(229, 27, 35, 0.20);
+
+    animation: eligible 3s infinite ease-in-out;
+}
+@keyframes eligible{
+    from{
+        transform: scale(0.2);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
+.drop-circle {
+    width: 90px;
+    height: 90px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #ffffff;
+
+    color: #e51b23;
+
+    border-radius: 50%;
+
+    font-size: 35px;
+
+    margin-bottom: 20px;
+}
+
+.eligibility-image h3 {
+    margin: 0;
+
+    font-size: 25px;
+}
+
+.eligibility-image p {
+    margin-top: 8px;
+
+    opacity: 0.9;
+}
+
+
+/* =========================================
+   REGISTRATION
+========================================= */
+
+.registration {
+    padding: 90px 7%;
+
+    background: #ffffff;
+}
+
+.registration-header {
+    max-width: 650px;
+
+    margin: 0 auto 45px;
+
+    text-align: center;
+}
+
+.registration-header > span {
+    color: #e51b23;
+
+    font-size: 13px;
+    font-weight: 700;
+
+    letter-spacing: 1px;
+}
+
+.registration-header h2 {
+    margin: 12px 0;
+
+    color: #111827;
+
+    font-size: 40px;
+}
+
+.registration-header h2 strong {
+    color: #e51b23;
+}
+
+.registration-header p {
+    color: #667085;
+
+    line-height: 1.6;
+}
+
+
+.registration-box {
+    max-width: 850px;
+
+    margin: auto;
+
+    padding: 40px;
+
+    background: #ffffff;
+
+    border: 1px solid #e5e7eb;
+
+    border-radius: 25px;
+
+    box-shadow: 0 15px 40px rgba(17, 24, 39, 0.10);
+}
+
+.form-row {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+
+    margin-bottom: 8px;
+
+    color: #111827;
+
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.input-container {
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+
+    padding: 0 15px;
+
+    background: #f8fafc;
+
+    border: 1px solid #e5e7eb;
+
+    border-radius: 10px;
+
+    transition: 0.3s ease;
+}
+
+.input-container:focus-within {
+    border-color: #e51b23;
+
+    box-shadow: 0 0 0 3px rgba(229, 27, 35, 0.08);
+
+    background: #ffffff;
+}
+
+.input-container i {
+    color: #e51b23;
+}
+
+.input-container input,
+.input-container select {
+    width: 100%;
+    height: 100%;
+
+    border: none;
+    outline: none;
+
+    background: transparent;
+
+    color: #111827;
+
+    font-size: 14px;
+}
+
+.input-container input::placeholder {
+    color: #98a2b3;
+}
+
+.register-btn {
+    width: 100%;
+    height: 52px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background: #e51b23;
+
+    color: #ffffff;
+
+    font-size: 15px;
+    font-weight: 700;
+
+    cursor: pointer;
+
+    transition: 0.3s ease;
+}
+
+.register-btn:hover {
+    background: #b90f18;
+
+    transform: translateY(-2px);
+}
+
+
+
+
+
+/* =========================================================
+   EXTRA LARGE DESKTOP
+   1400px AND ABOVE
+   ========================================================= */
+
+@media (min-width: 1400px) {
+
+    .donate-hero {
+        min-height: 650px;
+        padding: 90px 8%;
+        gap: 80px;
+    }
+
+    .donate-hero-content {
+        max-width: 600px;
+    }
+
+    .donate-hero-content h1 {
+        font-size: 58px;
+    }
+
+    .donate-hero-image {
+        width: 520px;
+        height: 490px;
+    }
+
+    .benefit-container {
+        max-width: 1200px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .eligibility {
+        padding: 100px 8%;
+        gap: 100px;
+    }
+
+    .registration {
+        padding: 100px 8%;
+    }
+
+    .registration-box {
+        max-width: 900px;
+    }
+}
+
+
+/* =========================================================
+   LARGE DESKTOP
+   1200px - 1399.99px
+   ========================================================= */
+
+@media (min-width: 1200px) and (max-width: 1399.99px) {
+
+    .donate-hero {
+        min-height: 620px;
+        padding: 80px 7%;
+        gap: 60px;
+    }
+
+    .donate-hero-content {
+        max-width: 550px;
+    }
+
+    .donate-hero-content h1 {
+        font-size: 52px;
+    }
+
+    .donate-hero-image {
+        width: 480px;
+        height: 450px;
+    }
+
+    .benefit-container {
+        max-width: 1150px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .eligibility {
+        padding: 85px 7%;
+        gap: 70px;
+    }
+
+    .eligibility-image {
+        width: 330px;
+        height: 330px;
+    }
+
+    .registration {
+        padding: 85px 7%;
+    }
+}
+
+
+/* =========================================================
+   LAPTOP
+   992px - 1199.99px
+   ========================================================= */
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+
+    /* ---------- NAVBAR ---------- */
+
+    .navbar {
+        width: 100%;
+        min-height: 82px;
+        padding: 12px 4%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        gap: 15px;
+    }
+
+    .logo-section {
+        flex-shrink: 0;
+    }
+
+    .navbar nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        flex: 1;
+    }
+
+    .navbar nav a {
+        font-size: 13px;
+        white-space: nowrap;
+    }
+
+    .login-btn {
+        flex-shrink: 0;
+        white-space: nowrap;
+    }
+
+
+    /* ---------- HERO ---------- */
+
+    .donate-hero {
+        width: 100%;
+        min-height: 580px;
+        padding: 70px 5%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 40px;
+    }
+
+    .donate-hero-content {
+        width: 50%;
+        max-width: 500px;
+    }
+
+    .donate-hero-content h1 {
+        font-size: 46px;
+    }
+
+    .donate-hero-content p {
+        font-size: 16px;
+    }
+
+    .donate-hero-image {
+        width: 45%;
+        height: 400px;
+        max-width: 450px;
+    }
+
+
+    /* ---------- WHY DONATE ---------- */
+
+    .why-donate {
+        padding: 75px 5%;
+    }
+
+    .benefit-container {
+        width: 100%;
+        max-width: 1050px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 20px;
+    }
+
+    .benefit-card {
+        width: 100%;
+        margin: 0;
+        box-sizing: border-box;
+        padding: 30px 20px;
+    }
+
+    .section-title h2 {
+        font-size: 38px;
+    }
+
+
+    /* ---------- ELIGIBILITY ---------- */
+
+    .eligibility {
+        width: 100%;
+        padding: 75px 5%;
+        display: flex;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .eligibility-content {
+        flex: 1;
+        min-width: 0;
+    }
+
+    .eligibility-content h2 {
+        font-size: 38px;
+    }
+
+    .eligibility-image {
+        width: 300px;
+        height: 300px;
+        flex-shrink: 0;
+    }
+
+
+    /* ---------- REGISTRATION ---------- */
+
+    .registration {
+        padding: 75px 5%;
+    }
+
+    .registration-box {
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 35px;
+        box-sizing: border-box;
+    }
+
+    .form-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 18px;
+    }
+}
+
+
+/* =========================================================
+   TABLET
+   768px - 991.99px
+   ========================================================= */
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+
+    /* ---------- NAVBAR ---------- */
+
+    .navbar {
+        width: 100%;
+        min-height: 82px;
+        padding: 12px 4%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        /* IMPORTANT:
+           LOGIN WILL NOT GO DOWN */
+        flex-wrap: nowrap;
+
+        gap: 12px;
+    }
+
+    .logo-section {
+        flex-shrink: 0;
+    }
+
+    .navbar nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+
+        /* Take available space */
+        flex: 1;
+
+        /* Do not push login down */
+        min-width: 0;
+    }
+
+    .navbar nav a {
+        font-size: 12px;
+        white-space: nowrap;
+    }
+
+    .login-btn {
+        flex-shrink: 0;
+        white-space: nowrap;
+        padding: 10px 15px;
+    }
+
+
+    /* ---------- HERO ---------- */
+
+    .donate-hero {
+        width: 100%;
+        min-height: auto;
+
+        padding: 65px 5%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        gap: 40px;
+    }
+
+    .donate-hero-content {
+        width: 100%;
+        max-width: 650px;
+        text-align: center;
+    }
+
+    .donate-label {
+        justify-content: center;
+    }
+
+    .donate-hero-content h1 {
+        font-size: 45px;
+    }
+
+    .donate-hero-content p {
+        font-size: 16px;
+    }
+
+    .donate-main-btn {
+        justify-content: center;
+    }
+
+    .donate-hero-image {
+        width: 100%;
+        max-width: 500px;
+        height: 400px;
+        flex-shrink: 0;
+    }
+
+
+    /* ---------- WHY DONATE ---------- */
+
+    .why-donate {
+        width: 100%;
+        padding: 70px 5%;
+    }
+
+    .section-title {
+        width: 100%;
+        max-width: 650px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .section-title h2 {
+        font-size: 36px;
+    }
+
+    .benefit-container {
+
+        /* IMPORTANT:
+           Cards stay inside center */
+        width: 100%;
+        max-width: 700px;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        display: grid;
+
+        /* 2 cards per row */
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+
+        gap: 20px;
+    }
+
+    .benefit-card {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+
+    /* ---------- ELIGIBILITY ---------- */
+
+    .eligibility {
+        width: 100%;
+        padding: 70px 5%;
+
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+        text-align: center;
+
+        gap: 40px;
+    }
+
+    .eligibility-content {
+        width: 100%;
+        max-width: 650px;
+    }
+
+    .eligibility-content h2 {
+        font-size: 36px;
+    }
+
+    .eligibility-list {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+        text-align: left;
+    }
+
+    .eligibility-image {
+        width: 300px;
+        height: 300px;
+        flex-shrink: 0;
+
+        /* Prevent tiny starting circle */
+        animation: none;
+    }
+
+
+    /* ---------- REGISTRATION ---------- */
+
+    .registration {
+        width: 100%;
+        padding: 70px 5%;
+    }
+
+    .registration-header {
+        width: 100%;
+        max-width: 650px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .registration-header h2 {
+        font-size: 36px;
+    }
+
+    .registration-box {
+        width: 100%;
+        max-width: 800px;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        padding: 30px;
+        box-sizing: border-box;
+    }
+
+    .form-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 18px;
+    }
+}
+
+
+/* =========================================================
+   MOBILE LANDSCAPE
+   576px - 767.99px
+   ========================================================= */
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+
+    html,
+    body {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+
+
+    /* ---------- NAVBAR ---------- */
+
+    .navbar {
+        width: 100%;
+        min-height: 70px;
+
+        padding: 10px 4%;
+
+        display: flex;
+        align-items: center;
+
+        /* Login stays at top */
+        flex-wrap: wrap;
+
+        gap: 8px;
+    }
+
+    .logo-section {
+        flex-shrink: 0;
+    }
+
+    .login-btn {
+        margin-left: auto;
+        flex-shrink: 0;
+
+        white-space: nowrap;
+
+        padding: 9px 14px;
+        font-size: 12px;
+    }
+
+    .navbar nav {
+
+        /* Navigation goes below */
+
+        width: 100%;
+
+        order: 3;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        flex-wrap: wrap;
+
+        gap: 10px;
+    }
+
+    .navbar nav a {
+        font-size: 12px;
+        white-space: nowrap;
+    }
+
+
+    /* ---------- HERO ---------- */
+
+    .donate-hero {
+        width: 100%;
+        min-height: auto;
+
+        padding: 55px 5%;
+
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+
+        gap: 35px;
+    }
+
+    .donate-hero-content {
+        width: 100%;
+        max-width: 650px;
+
+        text-align: center;
+    }
+
+    .donate-hero-content h1 {
+        font-size: 40px;
+    }
+
+    .donate-hero-content p {
+        font-size: 15px;
+    }
+
+    .donate-main-btn {
+        justify-content: center;
+    }
+
+    .donate-hero-image {
+        width: 100%;
+        max-width: 500px;
+        height: 350px;
+
+        flex-shrink: 0;
+    }
+
+    .save-card {
+        left: 15px;
+        bottom: 15px;
+    }
+
+
+    /* ---------- WHY DONATE ---------- */
+
+    .why-donate {
+        width: 100%;
+        padding: 60px 5%;
+    }
+
+    .section-title {
+        width: 100%;
+        max-width: 600px;
+
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .section-title h2 {
+        font-size: 32px;
+    }
+
+    .benefit-container {
+
+        /* IMPORTANT:
+           Keep cards centered */
+        width: 100%;
+        max-width: 600px;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        display: grid;
+
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+
+        gap: 18px;
+    }
+
+    .benefit-card {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        padding: 25px 18px;
+    }
+
+
+    /* ---------- ELIGIBILITY ---------- */
+
+    .eligibility {
+        width: 100%;
+
+        padding: 60px 5%;
+
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+
+        text-align: center;
+
+        gap: 35px;
+    }
+
+    .eligibility-content {
+        width: 100%;
+        max-width: 600px;
+    }
+
+    .eligibility-content h2 {
+        font-size: 32px;
+    }
+
+    .eligibility-list {
+        width: 100%;
+        max-width: 500px;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        text-align: left;
+    }
+
+    .eligibility-image {
+        width: 270px;
+        height: 270px;
+
+        flex-shrink: 0;
+
+        animation: none;
+    }
+
+
+    /* ---------- REGISTRATION ---------- */
+
+    .registration {
+        width: 100%;
+        padding: 60px 5%;
+    }
+
+    .registration-header {
+        width: 100%;
+        max-width: 600px;
+
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .registration-header h2 {
+        font-size: 32px;
+    }
+
+    .registration-box {
+        width: 100%;
+        max-width: 650px;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        padding: 25px;
+
+        box-sizing: border-box;
+    }
+
+    .form-row {
+        display: grid;
+
+        /* One input per line */
+        grid-template-columns: 1fr;
+
+        gap: 0;
+    }
+
+
+    /* ---------- FOOTER ---------- */
+
+    .footer-main {
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+}
+
+
+/* =========================================================
+   MOBILE
+   0px - 575.99px
+   ========================================================= */
+
+@media (max-width: 575.99px) {
+
+    /* ---------- GLOBAL ---------- */
+
+    html,
+    body {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+
+        overflow-x: hidden;
+    }
+
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+
+
+    /* =====================================================
+       NAVBAR
+       ===================================================== */
+
+    .navbar {
+        width: 100%;
+        min-height: 70px;
+
+        padding: 10px 15px;
+
+        display: flex;
+        align-items: center;
+
+        /*
+           IMPORTANT:
+           Logo + Login stay in same row
+        */
+        flex-wrap: wrap;
+
+        gap: 8px;
+    }
+
+    .logo-section {
+        flex-shrink: 0;
+    }
+
+    .logo-icon {
+        flex-shrink: 0;
+    }
+
+    .text-content {
+        font-size: 12px;
+    }
+
+
+    /* LOGIN STAYS BESIDE LOGO */
+
+    .login-btn {
+        margin-left: auto;
+
+        flex-shrink: 0;
+
+        white-space: nowrap;
+
+        padding: 9px 14px;
+
+        font-size: 12px;
+    }
+
+
+    /* NAV LINKS GO TO NEXT ROW */
+
+    .navbar nav {
+        width: 100%;
+
+        order: 3;
+
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+
+        flex-wrap: wrap;
+
+        gap: 8px;
+    }
+
+    .navbar nav a {
+        font-size: 11px;
+
+        white-space: nowrap;
+    }
+
+
+    /* =====================================================
+       DONATE HERO
+       ===================================================== */
+
+    .donate-hero {
+        width: 100%;
+
+        min-height: auto;
+
+        padding: 50px 18px;
+
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: center;
+
+        justify-content: center;
+
+        gap: 30px;
+    }
+
+    .donate-hero-content {
+        width: 100%;
+        max-width: 100%;
+
+        text-align: center;
+    }
+
+    .donate-label {
+        display: inline-flex;
+
+        font-size: 11px;
+
+        padding: 8px 13px;
+    }
+
+    .donate-hero-content h1 {
+        margin: 18px 0 13px;
+
+        font-size: 34px;
+
+        line-height: 1.15;
+    }
+
+    .donate-hero-content p {
+        font-size: 14px;
+
+        line-height: 1.6;
+
+        margin-bottom: 25px;
+    }
+
+    .donate-main-btn {
+        display: inline-flex;
+
+        justify-content: center;
+
+        padding: 13px 20px;
+
+        font-size: 14px;
+    }
+
+
+    /* HERO IMAGE */
+
+    .donate-hero-image {
+        width: 100%;
+        max-width: 100%;
+
+        height: 300px;
+
+        flex-shrink: 0;
+
+        border-radius: 20px;
+    }
+
+    .donate-hero-image img {
+        width: 100%;
+        height: 100%;
+
+        object-fit: cover;
+    }
+
+
+    /* SAVE CARD */
+
+    .save-card {
+        left: 12px;
+        right: 12px;
+        bottom: 12px;
+
+        padding: 10px 12px;
+
+        gap: 8px;
+    }
+
+    .save-card i {
+        width: 38px;
+        height: 38px;
+
+        font-size: 17px;
+    }
+
+    .save-card strong {
+        font-size: 13px;
+    }
+
+    .save-card p {
+        font-size: 10px;
+    }
+
+
+    /* =====================================================
+       WHY DONATE
+       ===================================================== */
+
+    .why-donate {
+        width: 100%;
+
+        padding: 55px 18px;
+    }
+
+    .section-title {
+        width: 100%;
+        max-width: 100%;
+
+        margin: 0 auto 35px;
+
+        text-align: center;
+    }
+
+    .section-title span {
+        font-size: 11px;
+    }
+
+    .section-title h2 {
+        margin: 10px 0;
+
+        font-size: 30px;
+
+        line-height: 1.2;
+    }
+
+    .section-title p {
+        font-size: 14px;
+
+        line-height: 1.6;
+    }
+
+
+    /* =====================================================
+       BENEFIT CARDS
+       ===================================================== */
+
+    .benefit-container {
+
+        /*
+           IMPORTANT:
+           Cards will NEVER move to right
+        */
+
+        width: 100%;
+        max-width: 100%;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        display: grid;
+
+        /* One card per row */
+
+        grid-template-columns: minmax(0, 1fr);
+
+        gap: 18px;
+    }
+
+    .benefit-card {
+
+        width: 100%;
+        max-width: 100%;
+
+        margin: 0;
+
+        padding: 28px 20px;
+
+        text-align: center;
+
+        box-sizing: border-box;
+    }
+
+    .benefit-icon {
+        width: 60px;
+        height: 60px;
+
+        margin: 0 auto 18px;
+
+        font-size: 23px;
+    }
+
+    .benefit-card h3 {
+        font-size: 18px;
+    }
+
+    .benefit-card p {
+        font-size: 13px;
+        line-height: 1.6;
+    }
+
+
+    /* =====================================================
+       ELIGIBILITY
+       ===================================================== */
+
+    .eligibility {
+        width: 100%;
+
+        padding: 55px 18px;
+
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: center;
+
+        justify-content: center;
+
+        text-align: center;
+
+        gap: 35px;
+    }
+
+    .eligibility-content {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .section-tag {
+        justify-content: center;
+
+        font-size: 11px;
+    }
+
+    .eligibility-content h2 {
+        margin: 15px 0;
+
+        font-size: 30px;
+
+        line-height: 1.2;
+    }
+
+    .eligibility-content > p {
+        font-size: 14px;
+
+        line-height: 1.6;
+    }
+
+
+    /* ELIGIBILITY LIST */
+
+    .eligibility-list {
+        width: 100%;
+
+        margin: 0;
+
+        display: grid;
+
+        gap: 12px;
+
+        text-align: left;
+    }
+
+    .eligibility-item {
+        width: 100%;
+
+        display: flex;
+
+        align-items: center;
+
+        gap: 10px;
+
+        font-size: 13px;
+    }
+
+    .eligibility-item i {
+        width: 24px;
+        height: 24px;
+
+        flex-shrink: 0;
+    }
+
+
+    /* ELIGIBILITY CIRCLE */
+
+    .eligibility-image {
+
+        width: 230px;
+        height: 230px;
+
+        flex-shrink: 0;
+
+        animation: none;
+    }
+
+    .drop-circle {
+        width: 65px;
+        height: 65px;
+
+        margin-bottom: 15px;
+
+        font-size: 25px;
+    }
+
+    .eligibility-image h3 {
+        font-size: 20px;
+    }
+
+    .eligibility-image p {
+        font-size: 12px;
+    }
+
+
+    /* =====================================================
+       REGISTRATION
+       ===================================================== */
+
+    .registration {
+        width: 100%;
+
+        padding: 55px 18px;
+    }
+
+    .registration-header {
+        width: 100%;
+        max-width: 100%;
+
+        margin: 0 auto 30px;
+
+        text-align: center;
+    }
+
+    .registration-header > span {
+        font-size: 11px;
+    }
+
+    .registration-header h2 {
+        margin: 10px 0;
+
+        font-size: 30px;
+
+        line-height: 1.2;
+    }
+
+    .registration-header p {
+        font-size: 14px;
+
+        line-height: 1.6;
+    }
+
+
+    /* REGISTRATION BOX */
+
+    .registration-box {
+        width: 100%;
+        max-width: 100%;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        padding: 22px 16px;
+
+        box-sizing: border-box;
+
+        border-radius: 18px;
+    }
+
+
+    /* FORM */
+
+    .form-row {
+        width: 100%;
+
+        display: grid;
+
+        grid-template-columns: minmax(0, 1fr);
+
+        gap: 0;
+    }
+
+    .form-group {
+        width: 100%;
+
+        margin-bottom: 18px;
+    }
+
+    .form-group label {
+        font-size: 12px;
+    }
+
+    .input-container {
+        width: 100%;
+
+        height: 48px;
+
+        padding: 0 12px;
+    }
+
+    .input-container input,
+    .input-container select {
+        min-width: 0;
+
+        font-size: 13px;
+    }
+
+    .register-btn {
+        width: 100%;
+
+        height: 50px;
+
+        font-size: 14px;
+    }
+
+
+    /* =====================================================
+       FOOTER
+       ===================================================== */
+
+    .footer-main {
+        width: 100%;
+
+        grid-template-columns: 1fr;
+
+        gap: 30px;
+
+        text-align: center;
+    }
+
+    .footer-brand,
+    .footer-column {
+        width: 100%;
+    }
+
+    .contact-us {
+        width: 100%;
+    }
+
+    .contact-item {
+        justify-content: center;
+    }
+
+    .footer-bottom {
+        width: 100%;
+
+        text-align: center;
+    }
+
+    .follow-us {
+        justify-content: center;
+    }
+}
